@@ -1,0 +1,28 @@
+title: Start
+tags: 
+colorID: 1
+position: 59,103
+---
+    (hit space to advance the text)
+    Hello Uti, Julia, Noah, and Gabe
+	You must be wondering why I've gathered you here.
+    Do you like this set-up?
+[[yes|Node1]] [[no|Node2]]
+===
+title: Node1
+tags: 
+colorID: 0
+position: 288,104
+---
+yay!
+I am so glad
+===
+title: Node2
+tags: 
+colorID: 0
+position: 52,333
+---
+oh no
+my deepest apologies
+please don't tell clara
+===
