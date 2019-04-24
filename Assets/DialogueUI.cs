@@ -9,6 +9,8 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
 {
     public GameObject player;
 
+    public bool deciding = false;
+
     public GameObject dialogueContainer;
 
     /// The UI element that displays lines
@@ -123,7 +125,7 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
 
         // Record that we're using it
         SetSelectedOption = optionChooser;
-
+        deciding = true;
         // Wait until the chooser has been used and then removed (see SetOption below)
         while (SetSelectedOption != null)
         {
@@ -144,7 +146,7 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
         // Call the delegate to tell the dialogue system that we've
         // selected an option.
         SetSelectedOption(selectedOption);
-
+        deciding = false;
         // Now remove the delegate so that the loop in RunOptions will exit
         SetSelectedOption = null;
     }

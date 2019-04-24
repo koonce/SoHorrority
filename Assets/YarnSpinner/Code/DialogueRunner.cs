@@ -44,6 +44,9 @@ namespace Yarn.Unity
     [AddComponentMenu("Scripts/Yarn Spinner/Dialogue Runner")]
     public class DialogueRunner : MonoBehaviour
     {
+        //bool to let other script know when it's deciding
+        public bool deciding = false;
+
         /// The JSON files to load the conversation from
         public TextAsset[] sourceText;
 
@@ -226,6 +229,8 @@ namespace Yarn.Unity
 
                 } else if (step is Yarn.Dialogue.OptionSetResult) {
 
+                    deciding = true;
+
                     // Wait for user to finish picking an option
                     var optionSetResult = step as Yarn.Dialogue.OptionSetResult;
                     yield return StartCoroutine (
@@ -235,6 +240,8 @@ namespace Yarn.Unity
                     ));
 
                 } else if (step is Yarn.Dialogue.CommandResult) {
+
+                    deciding = false;
 
                     // Wait for command to finish running
 
@@ -249,6 +256,7 @@ namespace Yarn.Unity
 
                 } else if(step is Yarn.Dialogue.NodeCompleteResult) {
 
+                    deciding = false;
                     // Wait for post-node action
                     var nodeResult = step as Yarn.Dialogue.NodeCompleteResult;
                     yield return StartCoroutine (this.dialogueUI.NodeComplete (nodeResult.nextNode));
