@@ -1344,6 +1344,11 @@ PrefabInstance:
       propertyPath: optionButtons.Array.data[1]
       value: 
       objectReference: {fileID: 775554589}
+    - target: {fileID: 2543837927616434673, guid: 8b8b186909a11bf4bbd6c734b1fc14be,
+        type: 3}
+      propertyPath: textSpeed
+      value: 0.03
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b8b186909a11bf4bbd6c734b1fc14be, type: 3}
 --- !u!1001 &2100940609
