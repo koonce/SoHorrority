@@ -26,7 +26,7 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
 
     /// How quickly to show the text, in seconds per character
     [Tooltip("How quickly to show the text, in seconds per character")]
-    public float textSpeed = 0.1f;
+    public float textSpeed = 0.05f;
 
     /// The buttons that let the user choose an option
     public List<Button> optionButtons;

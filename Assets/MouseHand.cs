@@ -8,6 +8,9 @@ public class MouseHand : MonoBehaviour
     public float layer = 11f;
     public float offset = 0;
 
+    float speed = 1f;
+    float amount = 1f;
+
     // Use this for initialization
     void Start()
     {

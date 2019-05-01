@@ -45,11 +45,13 @@ public class DialogueOptionSelect : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
+            Debug.Log("selection: " + selection);
             selection -= 1;
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
+            Debug.Log("selection: " + selection);
             selection += 1;
         }
 
@@ -61,6 +63,7 @@ public class DialogueOptionSelect : MonoBehaviour
         {
             selection = amountOfOptions - 1;
         }
+
 
         /*
         for (int i = 0; i < button.Length; i++)
