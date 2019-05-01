@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NPC
   - Planchette
+  - Door2
   layers:
   - Default
   - TransparentFX
