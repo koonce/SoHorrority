@@ -27,7 +27,16 @@ public class DialogueOptionSelect : MonoBehaviour
     void Update()
     {
 
-        button[selection].Select();
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            button[0].onClick.Invoke();
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            button[1].onClick.Invoke();
+        }
+
+       // button[selection].Select();
         /*
         for (int i = 0; i < button.Length; i++)
         {
@@ -42,27 +51,6 @@ public class DialogueOptionSelect : MonoBehaviour
             }
         }
         */
-
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Debug.Log("selection: " + selection);
-            selection -= 1;
-        }
-
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            Debug.Log("selection: " + selection);
-            selection += 1;
-        }
-
-        if (selection > amountOfOptions - 1)
-        {
-            selection = 0;
-        }
-        if (selection < 0)
-        {
-            selection = amountOfOptions - 1;
-        }
 
 
         /*
@@ -79,6 +67,7 @@ public class DialogueOptionSelect : MonoBehaviour
         }
         */
 
+        /*
         if (dr.GetComponent<DialogueUI>().deciding)
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -86,5 +75,6 @@ public class DialogueOptionSelect : MonoBehaviour
                 button[selection].onClick.Invoke();
             }
         }
+        */
     }
 }

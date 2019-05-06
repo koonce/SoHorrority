@@ -1068,7 +1068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   layer: 11
-  offset: 0
+  offset: 100
   cup: {fileID: 0}
 --- !u!212 &1695988579
 SpriteRenderer:
