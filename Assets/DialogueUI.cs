@@ -26,10 +26,12 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
 
     /// How quickly to show the text, in seconds per character
     [Tooltip("How quickly to show the text, in seconds per character")]
-    public float textSpeed = 0.05f;
+    public float textSpeed = 0.01f;
 
     /// The buttons that let the user choose an option
     public List<Button> optionButtons;
+
+    public GameObject buttonDirections;
 
     /// Make it possible to temporarily disable the controls when
     /// dialogue is active and to restore them when dialogue ends
@@ -78,11 +80,13 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
                 tmp.text = stringBuilder.ToString();
                 yield return new WaitForSeconds(textSpeed);
             }
+
         }
         else
         {
             // Display the line immediately if textSpeed == 0
             tmp.text = line.text;
+            textSpeed = .01f;
         }
 
         // Show the 'press any key' prompt when done, if we have one
@@ -119,6 +123,7 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
         foreach (var optionString in optionsCollection.options)
         {
             optionButtons[i].gameObject.SetActive(true);
+            buttonDirections.gameObject.SetActive(true);
             optionButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = optionString;
             i++;
         }
@@ -136,6 +141,7 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
         foreach (var button in optionButtons)
         {
             button.gameObject.SetActive(false);
+            buttonDirections.gameObject.SetActive(false);
         }
     }
 
