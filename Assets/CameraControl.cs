@@ -28,7 +28,7 @@ public class CameraControl : MonoBehaviour
         cameraPos[1] = new Vector3(-.6f, 1f, -10f);
         cameraPos[2] = new Vector3(20.4f, 1f, -10f);
        // cameraPos[3] = new Vector3(40.9f, 1f, -10f);
-        cameraPos[3] = new Vector3(-20.2f, 13.9f, -10f);
+        cameraPos[3] = new Vector3(-20.2f, 12.56f, -10f);
     }
 
     // Update is called once per frame
@@ -76,22 +76,25 @@ public class CameraControl : MonoBehaviour
         */
         else if (currentScene == 3)
         {
-
+            
+            /*
             if (!fade)
             {
                 FadeOut();
             }
+            */
 
             //Debug.Log("fade: " + fadeScreen.GetComponent<SpriteRenderer>().color.a);
 
-            if (fadeScreen.GetComponent<SpriteRenderer>().color.a >= 224)
-            {
-                cam.transform.position = cameraPos[currentScene];
+            
+            //if (fadeScreen.GetComponent<SpriteRenderer>().color.a >= 224)
+            //{
+                cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
 
-                Debug.Log("SWITCH");
-                fade = true;
-                
-            }
+            //    Debug.Log("SWITCH");
+            //    fade = true;
+
+            //}
 
             if (fade)
             {
@@ -100,7 +103,6 @@ public class CameraControl : MonoBehaviour
 
             
         }
-
 
     }
 
@@ -119,7 +121,7 @@ public class CameraControl : MonoBehaviour
         Color color = fadeScreen.GetComponent<SpriteRenderer>().color;
         if (color.a >= 0)
         {
-            color.a += Time.deltaTime * fadeSpeed * 3f;
+            color.a += Time.deltaTime * fadeSpeed;
         }
         fadeScreen.GetComponent<SpriteRenderer>().color = color;
     }
