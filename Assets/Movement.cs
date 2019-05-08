@@ -9,58 +9,73 @@ public class Movement : MonoBehaviour
     public GameObject dr;
     bool dialogueStarted = false;
 
+    public float top;
+    public float bottom;
+
+    public float right, left, maxRight, maxLeft;
+
+    public int currentScene = 1;
+
+    public float cameraSpeed = 5f;
+
+    public GameObject gm;
+
+    public TextAsset convo;
+
+    DialogueRunner drScript;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //DialogueRunner drScript = dr.GetComponent<DialogueRunner>();
         Vector3 pos = this.transform.position;
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            pos.x -= step;
-        }
+        drScript = dr.GetComponent<DialogueRunner>();
 
-        if (Input.GetKey(KeyCode.D))
+        if (!drScript.isDialogueRunning)
         {
-            pos.x += step;
-        }
+            if (Input.GetKey(KeyCode.A) && pos.x > maxLeft)
+            {
+                pos.x -= step;
+            }
 
-        if (Input.GetKey(KeyCode.S))
-        {
-            pos.y -= step;
-        }
+            if (Input.GetKey(KeyCode.D) && pos.x < maxRight)
+            {
+                pos.x += step;
+            }
 
-        if (Input.GetKey(KeyCode.W))
-        {
-            pos.y += step;
-        }
+            if (Input.GetKey(KeyCode.S) && pos.y > bottom)
+            {
+                pos.y -= step;
+            }
 
-        this.transform.position = pos;
+            if (Input.GetKey(KeyCode.W) && pos.y < top)
+            {
+                pos.y += step;
+            }
+
+            this.transform.position = pos;
+        }
 
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("NPC"))
+        if (collision.CompareTag("Door2"))
         {
-            if (!dialogueStarted)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                startDialog();
-                dialogueStarted = true;
+                Debug.Log("in front of door but " + gm.GetComponent<CameraControl>().currentScene);
+                gm.GetComponent<CameraControl>().currentScene = 3;
+                this.gameObject.transform.position = new Vector3(-20.56f, 8.05f, 0);
             }
         }
     }
 
-    
-    void startDialog()
-    {
-        FindObjectOfType<DialogueRunner>().StartDialogue();
-    }
 
 }

@@ -1,4 +1,4 @@
-title: Start
+title: Ex
 tags: 
 colorID: 1
 position: 59,103
@@ -23,6 +23,7 @@ colorID: 0
 position: 52,333
 ---
 oh no
+<<Speaking NPC>>
 my deepest apologies
 please don't tell clara
 ===
