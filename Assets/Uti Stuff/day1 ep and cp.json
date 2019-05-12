@@ -1,0 +1,152 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Jaycee: Hi! Are you a pledge too?\n\n[[Yes!|101]]\n[[Mhm.|101]]",
+		"position": {
+			"x": 20,
+			"y": 396
+		},
+		"colorID": 0
+	},
+	{
+		"title": "101",
+		"tags": "",
+		"body": "EP: It's so nice to meet you!! My name is EP.\n\n[[My name is Lucy.|201]]\n[[Mine is Lucy!|201]]",
+		"position": {
+			"x": 250,
+			"y": 398
+		},
+		"colorID": 0
+	},
+	{
+		"title": "201",
+		"tags": "",
+		"body": "EP: This is so exciting!! You like have to meet, um... I'm, um, so sorry, what's your name again?\nCP: My name is CP.\nEP: Ohh no, that's right. I totally forgot, I'm sorry, I'm so bad with names!\nCP: It's okay! No worries.\n\n[[Nice to meet you!|301]]\n[[This is so exciting!|302]]",
+		"position": {
+			"x": 476,
+			"y": 400
+		},
+		"colorID": 0
+	},
+	{
+		"title": "302",
+		"tags": "",
+		"body": "CP: I know! I can't believe this is finally happening.\nEP: What did you guys think of the speech and everything?\n\n[[It was great!|401]]\n[[She seems so cool.|402]]",
+		"position": {
+			"x": 725,
+			"y": 549
+		},
+		"colorID": 0
+	},
+	{
+		"title": "301",
+		"tags": "",
+		"body": "CP: Yea, it's nice to meet you too!\nEP: What did you guys think of the speech and everything?\n\n[[It was great!|401]]\n[[She seems so cool.|402]]",
+		"position": {
+			"x": 721,
+			"y": 320
+		},
+		"colorID": 0
+	},
+	{
+		"title": "402",
+		"tags": "",
+		"body": "Jaycee: Oh my god, so cool. The commandments and everything were like so cute.\nKayla: I don't know, a couple of them were kind of weird.\nJaycee: What do you mean?? Like, which ones?\nKayla: Uhhh... I mean, the one about puking in public was kinda weird, 'cause like, sometimes you don't really have a choice, you know?\nJaycee: What? And embarrass our family? Are you kidding?\n\n[[It's just weird because you're new.|501]]\n[[Yea, it was a little weird.|502]]",
+		"position": {
+			"x": 991,
+			"y": 552
+		},
+		"colorID": 0
+	},
+	{
+		"title": "401",
+		"tags": "",
+		"body": "Jaycee: Oh my god, so great. The commandments and everything were like so cute.\nKayla: I don't know, a couple of them were kind of weird.\nJaycee: What do you mean?? Like, which ones?\nKayla: Uhhh... I mean, the one about puking in public was kinda weird, 'cause like, sometimes you don't really have a choice, you know?\nJaycee: What? And embarrass our family? Are you kidding?\n\n[[It's just weird because you're new.|501]]\n[[Yea, it was a little weird.|502]]",
+		"position": {
+			"x": 983,
+			"y": 316
+		},
+		"colorID": 0
+	},
+	{
+		"title": "502",
+		"tags": "",
+		"body": "Jaycee: What?? I can't believe you guys are saying this.\nKayla: Yea, I don't know.\nJaycee: I think we should be really grateful for them letting us stay here and everything. \nJaycee: They're doing a really nice thing for us, and they're like so welcoming.\nJaycee: I mean like the least we can do is follow their rules, you know?\nKayla: I just feel weird about having to follow rules just to be friends with people.\n\n[[I know what you mean.|601]]\n[[I think it'll pass.|602]]",
+		"position": {
+			"x": 1313,
+			"y": 615
+		},
+		"colorID": 0
+	},
+	{
+		"title": "501",
+		"tags": "",
+		"body": "Jaycee: Yea, it's just because you're new.\nKayla: I don't know, I guess.\nJaycee: I mean, I think we should be really grateful for them letting us stay here and everything. \nJaycee: It takes a lot of time and effort and like, money for this sort of thing, you know?\nJaycee: We can totally like follow their rules in return, you know?\nKayla: I just feel weird about having to follow rules just to be friends with people.\n\n[[I know what you mean.|601]]\n[[The feeling will pass.|602]]",
+		"position": {
+			"x": 1302,
+			"y": 195
+		},
+		"colorID": 0
+	},
+	{
+		"title": "602",
+		"tags": "",
+		"body": "Kayla: Yea, you're probably right.\nKayla: I mean, I'm not trying to say I hate them or anything, or like, I'm going to leave.\nKayla: I get anxious about things sometimes, I'm... probably overthinking it.\nJaycee: Well that's what they're here for, you know?\nJaycee: Like, your anxiety. They're your sisters now, and they're here to support you.\nKayla: Yea, that's true.\n\n[[It's going to be okay.|701]]\n[[We're here for you.|702]]",
+		"position": {
+			"x": 1555,
+			"y": 615
+		},
+		"colorID": 0
+	},
+	{
+		"title": "601",
+		"tags": "",
+		"body": "Jaycee: I'm just so surprised.\nKayla: I mean I'm not trying to say I hate them or anything, or like, I'm going to leave.\nKayla: I get anxious about things sometimes, I'm probably overthinking it.\nJaycee: Well that's what they're here for, you know?\nJaycee: Like, your anxiety. They're your sisters now, and they're here to support you.\nKayla: Yea, that's true.\n\n[[It's going to be okay.|701]]\n[[We're here for you.|702]]",
+		"position": {
+			"x": 1560,
+			"y": 193
+		},
+		"colorID": 0
+	},
+	{
+		"title": "702",
+		"tags": "",
+		"body": "Jaycee: Yea, we're totally here for you.\nKayla: Thanks, you guys, I really appreciate it.\nKayla: I'm really sorry for being so weird, I wasn't trying to be too negative or anything.\n\n[[It's okay!|801]]\n[[No worries.|801]]",
+		"position": {
+			"x": 1799,
+			"y": 624
+		},
+		"colorID": 0
+	},
+	{
+		"title": "701",
+		"tags": "",
+		"body": "Jaycee: Yea, it's totally going to be okay.\nKayla: Thanks, you guys, I really appreciate it.\nKayla: I'm really sorry for being so weird, I wasn't trying to be too negative or anything.\n\n[[It's okay!|801]]\n[[No worries.|801]]",
+		"position": {
+			"x": 1792,
+			"y": 190
+		},
+		"colorID": 0
+	},
+	{
+		"title": "801",
+		"tags": "",
+		"body": "Kayla smiles.\n\n[[I'm gonna go, I'll talk to you guys soon.|901]]\n[[I'm gonna go meet some more pledges!|901]]",
+		"position": {
+			"x": 2090,
+			"y": 407
+		},
+		"colorID": 0
+	},
+	{
+		"title": "901",
+		"tags": "",
+		"body": "Kayla: Okay! Have fun.\nJaycee: See you soon!!",
+		"position": {
+			"x": 2352,
+			"y": 412
+		},
+		"colorID": 0
+	}
+]

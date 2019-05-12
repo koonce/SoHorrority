@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Lily: Hey! My name is Lily, I'm the VP. You're Lucy, right?\n\n[[Yep!|101]]\n[[Sure am!|101]]",
+		"position": {
+			"x": 77,
+			"y": 259
+		},
+		"colorID": 0
+	},
+	{
+		"title": "201",
+		"tags": "",
+		"body": "Morgan: That's great to hear.\nLily: We're so happy to finally be meeting everyone properly, this season is always so exciting.\nLily: All of you guys seem so put together!\nLily: I was like freaking out when I joined Lambda Lambda, but you guys have your shit together.\nMorgan: Yea, me too.\n\n[[Thanks!|301]]\n[[I can be overwhelming, haha.|302]]",
+		"position": {
+			"x": 558,
+			"y": 269
+		},
+		"colorID": 0
+	},
+	{
+		"title": "101",
+		"tags": "",
+		"body": "Lily: Great to have you here! This is Morgan, the Treasurer.\nMorgan: Hi. How are you doing?\n\n[[I'm great!|201]]\n[[I'm excited!|201]]",
+		"position": {
+			"x": 305,
+			"y": 254
+		},
+		"colorID": 0
+	},
+	{
+		"title": "302",
+		"tags": "",
+		"body": "Lily: Well, not too overwhelming, I hope.\nLily: All pledges are encouraged to come to us with any worries or concerns, we're here for you.\n\n[[Thank you!|301]]\n[[You're the best.|301]]",
+		"position": {
+			"x": 809,
+			"y": 407
+		},
+		"colorID": 0
+	},
+	{
+		"title": "301",
+		"tags": "",
+		"body": "Lily: Yes, of course.\nLily: Anyway, we have a surprise planned for after dinner, so make sure to tell everyone to not tuck in early if you see them going upstairs.\nLily: Sound good?\n\n[[Yes!|401]]\n[[Sounds great.|401]]",
+		"position": {
+			"x": 1061,
+			"y": 260
+		},
+		"colorID": 0
+	},
+	{
+		"title": "401",
+		"tags": "",
+		"body": "Lily: Awesome! I'll see you later then.\n\n[[Okay, bye!|501]]\n[[See you later!|501]]",
+		"position": {
+			"x": 1315,
+			"y": 254
+		},
+		"colorID": 0
+	}
+]

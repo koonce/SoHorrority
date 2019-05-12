@@ -32,10 +32,10 @@
 	{
 		"title": "301",
 		"tags": "",
-		"body": "\"Yea, I mean, you don't have to change if you don't want to, but you know, you should look your best, you know? You're a star, and you deserve to shine.\"\n\n[[Okay, I'll go change.|401]]\n[[I'll be right back.|401]]",
+		"body": "\"Yea, I mean, you don't have to change if you don't want to, but you should look your best, you know? You're a star, and you deserve to shine.\"\n\n[[Okay, I'll go change.|401]]\n[[I'll be right back.|401]]",
 		"position": {
-			"x": 51,
-			"y": 393
+			"x": 854,
+			"y": 313
 		},
 		"colorID": 0
 	},
@@ -44,8 +44,8 @@
 		"tags": "",
 		"body": "\"Oh no no no, you don't have to apologize or anything. I mean like, you don't have to change if you don't want to or anything, but you know, you should look your best, you know? You're a star, and you deserve to shine.\"\n\n[[Okay, I'll go change.|401]]\n[[I'll be right back.|401]]",
 		"position": {
-			"x": 284,
-			"y": 402
+			"x": 853,
+			"y": 91
 		},
 		"colorID": 0
 	},
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "\"Okay, great.\"\n\n[[Leave|end]]\n[[Leave|end]]",
 		"position": {
-			"x": 44,
-			"y": 634
+			"x": 1099,
+			"y": 197
 		},
 		"colorID": 0
 	}
