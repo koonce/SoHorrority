@@ -1,0 +1,172 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Hey Player, how are you?\n\n[[I'm pretty good.|101]]\n[[I'm great!|102]]",
+		"position": {
+			"x": 24,
+			"y": 100
+		},
+		"colorID": 0
+	},
+	{
+		"title": "101",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Oh, that's good to hear.\n\n[[Why are you over here by yourself?|201]]\n[[What are you up to?|202]]",
+		"position": {
+			"x": 285,
+			"y": 106
+		},
+		"colorID": 0
+	},
+	{
+		"title": "202",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Not really anything, I guess. Just chilling.\n\n[[Oh, okay.|301]]\n[[Are you okay?|302]]",
+		"position": {
+			"x": 538,
+			"y": 312
+		},
+		"colorID": 0
+	},
+	{
+		"title": "201",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Oh, um, I don't know, I'm just hanging out.\n\n[[Oh, okay.|301]]\n[[Are you sure?|302]]",
+		"position": {
+			"x": 530,
+			"y": 93
+		},
+		"colorID": 0
+	},
+	{
+		"title": "301",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Um...\n\n[[If you don't want to talk, that's okay.|401]]\n[[You can tell me what's up.|402]]",
+		"position": {
+			"x": 813,
+			"y": 114
+		},
+		"colorID": 0
+	},
+	{
+		"title": "401",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Well, I do, but only if you don't tell anyone I said anything, alright?\n\n[[I won't.|501]]\n[[Sounds good.|501]]",
+		"position": {
+			"x": 1059,
+			"y": 116
+		},
+		"colorID": 0
+	},
+	{
+		"title": "402",
+		"tags": "",
+		"body": "<<Speaking Kayla>>...okay, thank you, I reallly appreciate it. But you can't tell anyone I said anything, alright?\n\n[[I won't.|501]]\n[[Sounds good.|501]]",
+		"position": {
+			"x": 1057,
+			"y": 343
+		},
+		"colorID": 0
+	},
+	{
+		"title": "501",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Okay, it's not anything super specific, it's just a feeling, you know? \n<<Speaking Kayla>>I feel really uncomfortable here, in this house. \n<<Speaking Kayla>>All the girls act normal most of the time, but sometimes they say weird things to people, and the ouija board last night was weird, and like...\nShe seems to lose her train of thought.\n<<Speaking Kayla>>I've had a raging headache all of this morning, it feels like my head is going to explode.\n\n[[Do you have any like specific things they said?|601]]\n[[Well, it's only been a day here.|602]]",
+		"position": {
+			"x": 1324,
+			"y": 116
+		},
+		"colorID": 0
+	},
+	{
+		"title": "601",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Well like, it's not that, it's not anything specific, it's how they act around other people, how they talk to them, and stuff. \n<<Speaking Kayla>>It's really subtle, it's not any one thing.\n\n[[I think you might be overthinking this.|703]]\n[[Maybe you're just different from everyone else.|702]]",
+		"position": {
+			"x": 1559,
+			"y": 124
+		},
+		"colorID": 0
+	},
+	{
+		"title": "602",
+		"tags": "",
+		"body": "<<Speaking Kayla>>That's true, I guess, but usually my gut feeling on these things is pretty good. \nShe pauses.\n<<Speaking Kayla>>I don't know, I guess maybe you're right.\n\n[[Is there anything like specific you can name?|701]]\n[[Maybe you're just different from everyone else.|702]]",
+		"position": {
+			"x": 1550,
+			"y": 340
+		},
+		"colorID": 0
+	},
+	{
+		"title": "703",
+		"tags": "",
+		"body": "She stops for a moment. \n<<Speaking Kayla>>I guess you might be right. I, like... can be really anxious meeting new people.\n\n[[I'm sure you'll feel better after the party.|801]]\n[[Yea, I can relate to that.|802]]",
+		"position": {
+			"x": 1961,
+			"y": 583
+		},
+		"colorID": 0
+	},
+	{
+		"title": "702",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Yea...\nShe doesn't say anything else.\n\n[[I'm sure you'll feel better after the party.|801]]\n[[I think it'll turn out okay, everyone seems to like you.|803]]",
+		"position": {
+			"x": 1966,
+			"y": 338
+		},
+		"colorID": 0
+	},
+	{
+		"title": "701",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Well like, it's not that, it's not anything specific.\n<<Speaking Kayla>>It's how they act around other people, how they talk to them, and stuff. It's really subtle, it's not any one thing.\"\nShe sighs and rubs her face in her hands. \n<<Speaking Kayla>>I don't know, sometimes I just, like... get anxious meeting new people.\n\n[[I'm sure you'll feel better after the party.|801]]\n[[Yea, I can relate to that.|802]]",
+		"position": {
+			"x": 1971,
+			"y": 103
+		},
+		"colorID": 0
+	},
+	{
+		"title": "803",
+		"tags": "",
+		"body": "She seems to brighten up a bit after that comment. \n<<Speaking Kayla>>Really? You think so?\n\n[[Yea, for sure!|801]]\n[[Definitely.|801]]",
+		"position": {
+			"x": 2330,
+			"y": 604
+		},
+		"colorID": 0
+	},
+	{
+		"title": "801",
+		"tags": "",
+		"body": "<<Speaking Kayla>>I hope so. \nShe doesn't look fully convinced, but she's at least hopeful.\n\n[[Well, I'll see you later.|901]]\n[[Okay, I have to go get ready.|901]]",
+		"position": {
+			"x": 2224,
+			"y": 112
+		},
+		"colorID": 0
+	},
+	{
+		"title": "901",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Okay, I'll see you at the party.\n\n[[leave|1001]]\n[[leave|1002]]",
+		"position": {
+			"x": 2570,
+			"y": 135
+		},
+		"colorID": 0
+	},
+	{
+		"title": "802",
+		"tags": "",
+		"body": "<<Speaking Kayla>>Thanks Lucy, I appreciate it. \nShe checks her watch. \n<<Speaking Kayla>>Oh shit, I have to go get ready.\n\n[[Okay, sounds good.|901]]\n[[Okay! I'll see you later.|901]]",
+		"position": {
+			"x": 2268,
+			"y": 370
+		},
+		"colorID": 0
+	}
+]
