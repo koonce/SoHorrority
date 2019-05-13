@@ -30,7 +30,7 @@ namespace Yarn.Unity
         [YarnCommand("Speaking")]
         public void Talking()
         {
-            Debug.Log("called Yarn command");
+            //Debug.Log("called Yarn command");
             Vector3 newPos = new Vector3(pos.x + xVar, pos.y + yVar, pos.z);
 
             dialog.transform.position = newPos;
