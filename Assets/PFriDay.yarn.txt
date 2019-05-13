@@ -3,32 +3,35 @@ tags:
 colorID: 0
 position: 24634,-10829
 ---
-PC: Nope, not yet.
-P: I love her to death and would literally do anything in the world for her,
-P: but oh my god, she drives me insane sometimes.
-P: I had to convince her yesterday that we didn't need to serve you guys exactly 18 peas with dinner.
-P: I was like, "VP, we can just scoop them out of the pot. Nobody cares."
-P: But today I saw with a box of latex gloves and I know she plans on individually placing them on the plates.
-P: Hahaha, sorry, I'm rambling.
-P: Really, though. At the end of the day it's so nice to come home to a family of empowering girls
-P: Who love you no matter what.
-P: I remember when I was a freshman and your sister was a senior, I slept through my midterm
-P: I was seriously freaking out
-P: But your sister went to work late because it was more important to help little 18-year-old me
-P: facing her first college meltdown.
-P: It was devastating when I found out what happened.
-P: I really looked up to her.
-P: Ah, well I have a ton to do before tonight, but please let me know if you need anything at all.
-P: Again, I'm so happy you're here, PC!
-P: See you later.
+<<Speaking Lucy>>
+Nope, not yet.
+<<Speaking Krissy>>
+I love her to death and would literally do anything in the world for her,
+but oh my god, she drives me insane sometimes.
+I had to convince her yesterday that we didn't need to serve you guys exactly 18 peas with dinner.
+I was like, "Lily, we can just scoop them out of the pot. Nobody cares."
+But today I saw with a box of latex gloves and I know she plans on individually placing them on the plates.
+Hahaha, sorry, I'm rambling.
+Really, though. At the end of the day it's so nice to come home to a family of empowering girls
+Who love you no matter what.
+I remember when I was a freshman and your sister was a senior, I slept through my midterm
+I was seriously freaking out
+But your sister went to work late because it was more important to help little 18-year-old me
+facing her first college meltdown.
+It was devastating when I found out what happened.
+I really looked up to her.
+Ah, well I have a ton to do before tonight, but please let me know if you need anything at all.
+Again, I'm so happy you're here, Lucy!
+See you later.
 ===
 title: Krissy1
 tags: 
 colorID: 0
 position: 24043,-10874
 ---
-P: Hey PC!
-P: Are you excited about spending your weekend Lambda Lambda style?
+<<Speaking Krissy>>
+Hey PC!
+Are you excited about spending your weekend Lambda Lambda style?
 [[Yes!|Excited]][[Not really...|NotExcited]]
 ===
 title: YesVp
@@ -36,36 +39,45 @@ tags:
 colorID: 0
 position: 24699,-10556
 ---
-PC: Yes, I just spoke with her!
-P: I love her to death and would literally do anything in the world for her,
-P: but oh my god, she drives me insane sometimes.
-P: I had to convince her yesterday that we didn't need to serve you guys exactly 18 peas with dinner.
-P: I was like, "VP, we can just scoop them out of the pot. Nobody cares."
-P: But today I saw with a box of latex gloves and I know she plans on individually placing them on the plates.
-P: Hahaha, sorry, I'm rambling.
-P: Really, though. At the end of the day it's so nice to come home to a family of empowering girls
-P: Who love you no matter what.
-P: I remember when I was a freshman and your sister was a senior, I slept through my midterm
-P: I was seriously freaking out
-P: But your sister went to work late because it was more important to help little 18-year-old me
-P: facing her first college meltdown.
-P: It was devastating when I found out what happened.
-P: I really looked up to her.
-P: Ah, well I have a ton to do before tonight, but please let me know if you need anything at all.
-P: Again, I'm so happy you're here, PC!
-P: See you later.
+<<Speaking Lucy>>
+Yes, I just spoke with her!
+<<Speaking Krissy>>
+I love her to death and would literally do anything in the world for her,
+<<Sad Krissy>>
+but oh my god, she drives me insane sometimes.
+I had to convince her yesterday that we didn't need to serve you guys exactly 18 peas with dinner.
+I was like, "Lily, we can just scoop them out of the pot. Nobody cares."
+But today I saw with a box of latex gloves and I know she plans on individually placing them on the plates.
+<<Happy Krissy>>
+Hahaha, sorry, I'm rambling.
+<<Normal Krissy>>
+Really, though. At the end of the day it's so nice to come home to a family of empowering girls
+Who love you no matter what.
+I remember when I was a freshman and your sister was a senior, I slept through my midterm
+I was seriously freaking out
+But your sister went to work late because it was more important to help little 18-year-old me
+facing her first college meltdown.
+It was devastating when I found out what happened.
+I really looked up to her.
+Ah, well I have a ton to do before tonight, but please let me know if you need anything at all.
+Again, I'm so happy you're here, PC!
+See you later.
 ===
 title: Excited
 tags: 
 colorID: 0
 position: 24309,-10881
 ---
-PC: Yes! I've been so looking forward to it.
-P: Ah, I'm so glad!
-P: I was seriously so excited when I found out you were pledging us.
-P: I know we don't know each other that well, but you give me a really down to earth vibe
-P: And we definitely could use that around here sometimes.
-P: Have you talked to VP yet?
+<<Speaking Lucy>>
+Yes! I've been so looking forward to it.
+<<Speaking Krissy>>
+<<Happy Krissy>>
+Ah, I'm so glad!
+I was seriously so excited when I found out you were pledging us.
+<<Normal Krissy>>
+I know we don't know each other that well, but you give me a really down to earth vibe
+And we definitely could use that around here sometimes.
+Have you talked to Lily yet?
 [[Yep.|YesVp]][[Nope.|NoVp]]
 ===
 title: NotExcited
@@ -73,14 +85,18 @@ tags:
 colorID: 0
 position: 24421,-10537
 ---
-PC: Well, I've actually been kinda anxious about all of this.
-P: Oh my god, you do not have to feel anxious around us.
-P: One of the best parts of being in Lambda Lambda is you have this whole support group of sisters
-P: to help you through your anxiety.
-P: We are all here for you.
-P: I was seriously so excited when I found out you were pledging us.
-P: I know we don't know each other that well, but you give me a really down to earth vibe
-P: And we definitely could use that around here sometimes.
-P: Have you talked to VP yet?
+<<Speaking Lucy>>
+Well, I've actually been kinda anxious about all of this.
+<<Speaking Krissy>>
+Oh my god, you do not have to feel anxious around us.
+One of the best parts of being in Lambda Lambda is you have this whole support group of sisters
+to help you through your anxiety.
+<<Happy Krissy>>
+We are all here for you.
+<<Normal Krissy>>
+I was seriously so excited when I found out you were pledging us.
+I know we don't know each other that well, but you give me a really down to earth vibe
+And we definitely could use that around here sometimes.
+Have you talked to VP yet?
 [[Yep.|YesVp]][[Nope.|NoVp]]
 ===

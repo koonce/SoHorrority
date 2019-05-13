@@ -42,11 +42,13 @@ public class Movement : MonoBehaviour
             if (Input.GetKey(KeyCode.A) && pos.x > maxLeft)
             {
                 pos.x -= step;
+                this.GetComponent<SpriteRenderer>().flipX = false;
             }
 
             if (Input.GetKey(KeyCode.D) && pos.x < maxRight)
             {
                 pos.x += step;
+                this.GetComponent<SpriteRenderer>().flipX = true;
             }
 
             if (Input.GetKey(KeyCode.S) && pos.y > bottom)
