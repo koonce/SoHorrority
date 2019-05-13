@@ -7,6 +7,8 @@ TagManager:
   - NPC
   - Planchette
   - Door2
+  - Collect
+  - Stairs
   layers:
   - Default
   - TransparentFX

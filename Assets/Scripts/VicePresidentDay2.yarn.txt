@@ -1,4 +1,4 @@
-title: Start
+title: Lily2
 tags: 
 colorID: 0
 position: 180,235
@@ -49,10 +49,10 @@ Wow, that's crazy!
 <<Speaking Lily>>
 "Oh my god, I know right, I did like, so many cannonballs, haha."
 
-[[So what are you up to?|401a]]
+[[So what are you up to?|401c]]
 [[What are you doing out here?|401b]]
 ===
-title: 401a
+title: 401c
 tags: 
 colorID: 0
 position: 962,433

@@ -18,7 +18,7 @@ public class MovePlanchette : MonoBehaviour
     void Update()
     {
 
-        anim = GameObject.Find("planchette").GetComponent<Animator>();
+        anim = GameObject.Find("planchette2").GetComponent<Animator>();
 
         if (touching)
         {

@@ -2,7 +2,9 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "<<Speaking Lily>>Heyyy everyone come over here!\n<<Speaking Lily>>...\n<<Speaking Lily>>...\n<<Speaking Lily>>...\n<<Speaking Lily>>Surprise!!!\n\n[[Woah!|101]]\n[[A ouija board?!|101]]",
+		"body": "<<Speaking Lily>>Heyyy everyone come over here!\n<<Speaking Lily>>...\n<<Speaking Lily>>...\n<<Speaking Lily>>...\n<<Speaking Lily>>Surprise!!!
+		<<Reveal Lily>> 
+		\n\n[[Woah!|101]]\n[[A ouija board?!|101]]",
 		"position": {
 			"x": 108,
 			"y": 217
@@ -62,7 +64,7 @@
 	{
 		"title": "106",
 		"tags": "",
-		"body": "<<Speaking Morgan>>Y...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>S...\n<<Speaking Jaycee>>Wow...\n<<Speaking Morgan>>You can ask another question.\n\n[[I miss you so much.|107]]\n[[Are you okay?|108]]",
+		"body": "<<Ouija Lily>> <<Speaking Morgan>>Y...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>S...\n<<Speaking Jaycee>>Wow...\n<<Speaking Morgan>>You can ask another question.\n\n[[I miss you so much.|107]]\n[[Are you okay?|108]]",
 		"position": {
 			"x": 1550,
 			"y": 206
@@ -92,7 +94,7 @@
 	{
 		"title": "109",
 		"tags": "",
-		"body": "<<Speaking Morgan>>Y...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>U...\n<<Speaking Morgan>>B...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>L...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>N...\n<<Speaking Morgan>>G...\n<<Speaking Morgan>>H...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>R...\n<<Speaking Morgan>>E...",
+		"body": "<<Speaking Morgan>>Y...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>U...\n<<Speaking Morgan>>B...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>L...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>N...\n<<Speaking Morgan>>G...\n<<Speaking Morgan>>H...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>R...\n<<Speaking Morgan>>E... <<ChangeScene Lily>>",
 		"position": {
 			"x": 2086,
 			"y": 212

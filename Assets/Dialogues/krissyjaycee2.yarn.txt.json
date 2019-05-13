@@ -1,0 +1,142 @@
+[
+	{
+		"title": "KrissyJaycee2",
+		"tags": "",
+		"body": "You walk up to Krissy and Jaycee.\n<<Speaking Krissy>>Heyyy!\n<<Speaking Jaycee>>What's up!\n\n[[It's good!|201w]]\n[[Great!|201w]]",
+		"position": {
+			"x": 41,
+			"y": 372
+		},
+		"colorID": 0
+	},
+	{
+		"title": "201w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>Oh my god aren't you like so excited for the party tonight?\n\n[[I can't wait!!|301w]]\n[[It's going to be amazingggg.|301w]]",
+		"position": {
+			"x": 290,
+			"y": 370
+		},
+		"colorID": 0
+	},
+	{
+		"title": "301w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>I know, right? I can't wait either!\n<<Speaking Krissy>>We were just talking about what mixers to bring and everything.\n<<Speaking Krissy>>Oh, by the way, what mixers do you think we should buy? I was just telling Ellie what to buy.\n\n[[Coke.|401w]]\n[[Um, more alcohol, haha.|402w]]",
+		"position": {
+			"x": 540,
+			"y": 368
+		},
+		"colorID": 0
+	},
+	{
+		"title": "402w",
+		"tags": "",
+		"body": "<<Speaking Krissy>>Hahaha, don't worry, we've got plenty.\n<<Speaking Krissy>>We're gonna need something else, though.\n<<Speaking Jaycee>>Oh, you should get lemonade! Lemonade is so good with vodka.\n<<Speaking Krissy>>Lemonade is way too sugary, Jaycee, haha.\n<<Speaking Krissy>>I don't want my teeth to get yellow.\n<<Speaking Jaycee>>Oh yea, you're totally right, I guess I didn't think about that. You're right, lemonade is disgusting.\n<<Speaking Krissy>>Well, I think I'll tell her to grab orange juice. There's a lot of low-sugar orange juice.\n<<Speaking Krissy>>I'll be right back.\nShe turns around and leaves the conversation.\n\n[[So, how's it going?|501w]]\n[[What's up?|501w]]",
+		"position": {
+			"x": 805,
+			"y": 460
+		},
+		"colorID": 0
+	},
+	{
+		"title": "401w",
+		"tags": "",
+		"body": "<<Speaking Krissy>>Hmmm... I don't know.\n<<Speaking Jaycee>>Oh, you should get lemonade! Lemonade is so good with vodka.\n<<Speaking Krissy>>Lemonade is way too sugary, Jaycee, haha.\n<<Speaking Krissy>>I don't want my teeth to get yellow.\n<<Speaking Jaycee>>Oh yea, you're totally right, I guess I didn't think about that. You're right, lemonade is disgusting.\n<<Speaking Krissy>>Well, I think I'll tell her to grab orange juice. There's a lot of low-sugar orange juice.\n<<Speaking Krissy>>I'll be right back.\nShe turns around and leaves the conversation.\n\n[[So, how's it going?|501w]]\n[[What's up?|501w]]",
+		"position": {
+			"x": 818,
+			"y": 233
+		},
+		"colorID": 0
+	},
+	{
+		"title": "501w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>It's great!! \nJaycee giggles forcefully.\n<<Speaking Jaycee>>I still can't believe we're here! It's so amazing.\n\n[[Yea, it's great!|601w]]\n[[I know, it's like, pretty overwhelming, haha.|602w]]",
+		"position": {
+			"x": 1070,
+			"y": 372
+		},
+		"colorID": 0
+	},
+	{
+		"title": "602w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>I know, it's like, crazy.\n<<Speaking Jaycee>>But everyone is so nice and welcoming, I'm like, so comfortable around them. \n<<Speaking Jaycee>>I've spent all morning thinking about how great the party's going to be and what it's going to be like. \n<<Speaking Jaycee>>What do you think is going to happen?\n\n[[Um everyone's probably going to get really drunk.|702w]]\n[[It's going to be crazy!!|702w]]",
+		"position": {
+			"x": 1291,
+			"y": 469
+		},
+		"colorID": 0
+	},
+	{
+		"title": "601w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>I've been spending all day wondering what the party's going to be like!\n<<Speaking Jaycee>>I bet it's going to be so crazy, haha. What do you think?\n\n[[Um, everyone's probably going to get really drunk.|702w]]\n[[It's going to be crazy!!|702w]]",
+		"position": {
+			"x": 1285,
+			"y": 233
+		},
+		"colorID": 0
+	},
+	{
+		"title": "702w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>Oh my god, yea, I know. \n<<Speaking Jaycee>>I wonder who's going to smash the pinata.\n\n[[What?|801w]]\n[[The pinata?|801w]]",
+		"position": {
+			"x": 1566,
+			"y": 349
+		},
+		"colorID": 0
+	},
+	{
+		"title": "801w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>Well, yea, the pinata! Every party has to have a pinata. \n<<Speaking Jaycee>>That's like, the one thing about parties I know for sure.\n\n[[I haven't been to a party with a pinata in years.|901w]]\n[[Aren't those, like, a kid's thing?|902w]]",
+		"position": {
+			"x": 1801,
+			"y": 350
+		},
+		"colorID": 0
+	},
+	{
+		"title": "901w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>Oh, well yea, it was a joke, haha.\n<<Speaking Jaycee>>It's like going to be so crazy though!\n\n[[Yes!!|1001w]]\n[[I know right.|1001w]]",
+		"position": {
+			"x": 2039,
+			"y": 245
+		},
+		"colorID": 0
+	},
+	{
+		"title": "902w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>Oh, well yea, it was like, a joke, haha.\n<<Speaking Jaycee>>It's like going to be so crazy though!\n\n[[Yes!!|1001w]]\n[[I know right.|1001w]]",
+		"position": {
+			"x": 2043,
+			"y": 460
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1001w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>Yes!!\n\n[[I think I have to go get ready, haha.|1101w]]\n[[I have to go but I'll see you later!|1101w]]",
+		"position": {
+			"x": 2276,
+			"y": 358
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1101w",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>Okay!! See you later.\n\n[[leave]]\n[[leave]]",
+		"position": {
+			"x": 2504,
+			"y": 362
+		},
+		"colorID": 0
+	}
+]

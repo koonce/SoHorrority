@@ -1,4 +1,4 @@
-title: Start
+title: TD2
 tags: 
 colorID: 0
 position: -397,73
@@ -6,9 +6,9 @@ position: -397,73
 <<Speaking Morgan>> <<Normal Morgan>> <<Normal Lucy>>
 Hey Lucy, how's it going?
 
-[[Pretty good.|101]]
+[[Pretty good.|101k]]
 ===
-title: 101
+title: 101k
 tags: 
 colorID: 0
 position: 7,27
@@ -21,9 +21,9 @@ That's good.
 (She looks you up and down)
 Are you, uh, going to wear that to the party?
 
-[[Oh... yea.|201]]
+[[Oh... yea.|201k]]
 ===
-title: 201
+title: 201k
 tags: 
 colorID: 0
 position: 295,9
@@ -34,10 +34,10 @@ Oh... yea.
 I hate to nitpick and everything, but that outfit isn't really right for this kind of party, haha. 
 It's sort of a bit more... high class, you know?
 
-[[Oh, okay.|301]]
-[[Oh shit, I'm sorry.|302]]
+[[Oh, okay.|301k]]
+[[Oh shit, I'm sorry.|302k]]
 ===
-title: 301
+title: 301k
 tags: 
 colorID: 0
 position: 97,354
@@ -49,9 +49,9 @@ Yea, I mean, you don't have to change if you don't want to, but you know, you sh
 <<Happy Morgan>>
 You're a star, and you deserve to shine.
 
-[[I'll be right back.|401]]
+[[I'll be right back.|401k]]
 ===
-title: 302
+title: 302k
 tags: 
 colorID: 0
 position: 547,231
@@ -67,7 +67,7 @@ It makes people feel better about themselves!
 
 [[Wow, you're right!|added]]
 ===
-title: 401
+title: 401k
 tags: 
 colorID: 0
 position: 317,862

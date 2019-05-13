@@ -1,0 +1,95 @@
+title: Morgan2
+tags: 
+colorID: 0
+position: -257,131
+---
+<<Speaking Morgan>> <<Normal Morgan>> <<Normal Lucy>>
+Hey Lucy, how's it going?
+
+[[Pretty good.|101c]]
+===
+title: 101c
+tags: 
+colorID: 0
+position: 12,65
+---
+<<Speaking Lucy>>
+Pretty good.
+<<Speaking Morgan>>
+That's good. 
+<<Sad Morgan>>
+(She looks you up and down)
+Are you, uh, going to wear that to the party?
+
+[[Oh... yea.|201c]]
+===
+title: 201c
+tags: 
+colorID: 0
+position: 295,9
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+Oh... yea.
+<<Speaking Morgan>> <<Normal Morgan>>
+I hate to nitpick and everything, but that outfit isn't really right for this kind of party, haha. 
+It's sort of a bit more... high class, you know?
+
+[[Oh, okay.|301c]]
+[[Oh shit, I'm sorry.|302c]]
+===
+title: 301c
+tags: 
+colorID: 0
+position: 97,354
+---
+<<Speaking Lucy>> <<Normal Lucy>>
+Oh, okay.
+<<Speaking Morgan>>
+Yea, I mean, you don't have to change if you don't want to, but you know, you should look your best, you know? 
+<<Happy Morgan>>
+You're a star, and you deserve to shine.
+
+[[I'll be right back.|401c]]
+===
+title: 302c
+tags: 
+colorID: 0
+position: 547,231
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+Oh shit, I'm sorry.
+<<Speaking Morgan>> <<Sad Morgan>>
+Oh no, don't apologize! Everyone I know is always apologizing for things.
+<<Normal Morgan>> <<Normal Lucy>>
+Instead of saying stuff like "I'm sorry I complain so much," say stuff like, "Thank you so much for listening to me."
+<<Happy Morgan>>
+It makes people feel better about themselves!
+
+[[Wow, you're right!|added]]
+===
+title: 401c
+tags: 
+colorID: 0
+position: 317,862
+---
+<<Speaking Lucy>> <<Happy Lucy>>
+I'll be right back.
+<<Speaking Morgan>> <<Happy Morgan>>
+Okay, great.
+
+===
+title: added
+tags: 
+colorID: 0
+position: 756,568
+---
+<<Speaking Lucy>> <<Happy Lucy>> <<Happy Morgan>>
+Wow, you're right!
+<<Speaking Morgan>> <<Normal Lucy>> <<Normal Morgan>>
+Yea! I mean like, you don't have to change if you don't want to or anything, but you know, you should look your best, you know? 
+<<Happy Morgan>>
+You're a star, and you deserve to shine.
+
+[[Okay, I'll go change.|401c]]
+[[I'll be right back.|401c]]
+===

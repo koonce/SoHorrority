@@ -24,6 +24,10 @@ public class Movement : MonoBehaviour
 
     DialogueRunner drScript;
 
+    bool onStairs = false;
+
+    public bool firstFloor = true;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +37,21 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!firstFloor)
+        {
+            maxLeft = -11f;
+            maxRight = 10f;
+            top = 10.83f;
+            bottom = 9.22f;
+        }
+        else
+        {
+            maxLeft = -29.6f;
+            maxRight = 29.7f;
+            top = -0.83f;
+            bottom = -3.67f;
+        }
+
         Vector3 pos = this.transform.position;
 
         drScript = dr.GetComponent<DialogueRunner>();
@@ -51,12 +70,12 @@ public class Movement : MonoBehaviour
                 this.GetComponent<SpriteRenderer>().flipX = true;
             }
 
-            if (Input.GetKey(KeyCode.S) && pos.y > bottom)
+            if (Input.GetKey(KeyCode.S) && (pos.y > bottom|| onStairs))
             {
                 pos.y -= step;
             }
 
-            if (Input.GetKey(KeyCode.W) && pos.y < top)
+            if (Input.GetKey(KeyCode.W) && (pos.y < top || onStairs))
             {
                 pos.y += step;
             }
@@ -68,6 +87,11 @@ public class Movement : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collision)
     {
+        if (collision.CompareTag("Stairs"))
+        {
+            onStairs = true;
+        }
+
         if (collision.CompareTag("Door2"))
         {
             if (Input.GetKeyDown(KeyCode.Space))
@@ -76,6 +100,14 @@ public class Movement : MonoBehaviour
                 gm.GetComponent<CameraControl>().currentScene = 3;
                 this.gameObject.transform.position = new Vector3(-20.56f, 8.05f, 0);
             }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Stairs"))
+        {
+            onStairs = false;
         }
     }
 
