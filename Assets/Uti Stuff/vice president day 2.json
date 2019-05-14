@@ -1,0 +1,112 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "\"Okay, so, Zagan, Haagenti, Kimaris, Furfu-\" \nVP notices you coming and smiles. \n\"Um, I'm going to have to call you back, Trav,\" she says as she hangs up the phone.\n\"Hey! How's it going?? Are you excited or what?\"\n\n[[Yes, I can't wait!!|201]]\n[[Yea, but I'm so nervous!!|202]]",
+		"position": {
+			"x": 178,
+			"y": 235
+		},
+		"colorID": 0
+	},
+	{
+		"title": "201",
+		"tags": "",
+		"body": "Right? This is always one of the best parties of the year. \nLast year we put Pitch Perfect on every TV in the house at 4AM and every time the cup song played we'd pour a bottle of vodka in the pool!\n\n[[Wow, that's crazy!|301]]\n[[That sounds fun!|301]]",
+		"position": {
+			"x": 487,
+			"y": 123
+		},
+		"colorID": 0
+	},
+	{
+		"title": "202",
+		"tags": "",
+		"body": "Lucy, don't be nervous, this is the best party of the year! \nLast year we put Pitch Perfect on every TV in the house at 4AM and every time the cup song played we'd pour a bottle of vodka in the pool!\n\n[[Wow, that's crazy!|301]]\n[[That sounds fun!|301]]",
+		"position": {
+			"x": 489,
+			"y": 374
+		},
+		"colorID": 0
+	},
+	{
+		"title": "301",
+		"tags": "",
+		"body": "I know right? I did like, so many cannonballs, haha.\n\n[[So what are you up to?|401]]\n[[What are you doing out here?|401]]",
+		"position": {
+			"x": 701,
+			"y": 169
+		},
+		"colorID": 0
+	},
+	{
+		"title": "401",
+		"tags": "",
+		"body": "Oh, you know, just organizing everything, like usual. \nI was just telling my boyfriend Travis what he needs to get for the party, and before that I was helping Emma with her outfit, and before that I was choosing whether to buy the red Doritos or the blue Doritos... \nIt's been such a crazy day.\n\n[[Wow, you're amazing.|501]]\n[[How do you manage all that??|502]]",
+		"position": {
+			"x": 951,
+			"y": 154
+		},
+		"colorID": 0
+	},
+	{
+		"title": "502",
+		"tags": "",
+		"body": "Honestly I don't even know, I just go crazy for parties, I guess!\nWhat about you, though? I was like, losing my mind my first weekend, for real, and you're over here not even breaking a sweat!\n\n[[Thank you!|601]]\n[[Oh my god, stop it, haha.|601]]",
+		"position": {
+			"x": 1190,
+			"y": 348
+		},
+		"colorID": 0
+	},
+	{
+		"title": "501",
+		"tags": "",
+		"body": "No way! You're the amazing one. \nI was like, losing my mind my first weekend and you're over here not even breaking a sweat.\n\n[[Thank you!|601]]\n[[Oh my god, stop it, haha.|601]]",
+		"position": {
+			"x": 1215,
+			"y": 113
+		},
+		"colorID": 0
+	},
+	{
+		"title": "601",
+		"tags": "",
+		"body": "Of course! \nSorry to change the topic, but I was wondering if you preferred Ocho or Patron.\nI'm on the fence, and Travis and Krissy are so into Ocho, and I'm just not sure, you know?\nYou don't know what either of those things are. It sounds like alcohol.\n\n[[I like Ocho more.|701]]\n[[Definitely Patron.|702]]",
+		"position": {
+			"x": 1450,
+			"y": 128
+		},
+		"colorID": 0
+	},
+	{
+		"title": "702",
+		"tags": "",
+		"body": "Okay! I'll let Travis know when I call him back, so he can get Patron. \nYou're totally okay drinking, right? I have to ask at least once.\n\n[[Yea, of course!|801]]\n[[Duh!|801]]",
+		"position": {
+			"x": 1691,
+			"y": 390
+		},
+		"colorID": 0
+	},
+	{
+		"title": "701",
+		"tags": "",
+		"body": "Okay, well I'll let Travis know when I call him back, so he can get Ocho. \nYou're totally okay drinking, right? I have to ask at least once.\n\n[[Yea, of course!|801]]\n[[Duh!|801]]",
+		"position": {
+			"x": 1678,
+			"y": 146
+		},
+		"colorID": 0
+	},
+	{
+		"title": "801",
+		"tags": "",
+		"body": "Awesome!! Oh my god, I'm so excited, it's gonna be so much fun! \nShe's beaming. \nI'll see you later, okay? I'm gonna call Trav back.\n\n[[Okay! Bye.|done]]\n[[See you later!|done]]",
+		"position": {
+			"x": 1965,
+			"y": 146
+		},
+		"colorID": 0
+	}
+]

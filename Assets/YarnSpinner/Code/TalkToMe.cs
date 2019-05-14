@@ -8,6 +8,9 @@ public class TalkToMe : MonoBehaviour
     DialogueRunner drScript;
     public GameObject dr;
 
+    public GameObject name;
+    public GameObject name2;
+
     public string startNode;
 
     bool dialogueStarted = false;
@@ -26,15 +29,35 @@ public class TalkToMe : MonoBehaviour
         drScript = dr.GetComponent<DialogueRunner>();
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            name.SetActive(true);
+            if (name2 != null)
+            {
+                name2.SetActive(true);
+            }
             if (!dialogueStarted)
             {
-                drScript.startNode = startNode;
-                startDialog();
-                dialogueStarted = true;
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    drScript.startNode = startNode;
+                    startDialog();
+                    dialogueStarted = true;
+                }
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            name.SetActive(false);
+            if (name2 != null)
+            {
+                name2.SetActive(false);
             }
         }
     }

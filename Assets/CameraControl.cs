@@ -19,6 +19,8 @@ public class CameraControl : MonoBehaviour
 
     public float fadeSpeed;
 
+    float secondFloor = 9.22f;
+
     bool fade = false;
 
     // Start is called before the first frame update
@@ -28,7 +30,7 @@ public class CameraControl : MonoBehaviour
         cameraPos[1] = new Vector3(-.6f, 1f, -10f);
         cameraPos[2] = new Vector3(20.4f, 1f, -10f);
        // cameraPos[3] = new Vector3(40.9f, 1f, -10f);
-        cameraPos[3] = new Vector3(-20.2f, 12.56f, -10f);
+        cameraPos[3] = new Vector3(-.21f, 12.44f, -10f);
     }
 
     // Update is called once per frame
@@ -46,16 +48,23 @@ public class CameraControl : MonoBehaviour
             currentScene++;
         }
 
+        if (player.transform.position.y>9)
+        {
+            currentScene = 3;
+
+        }
         //currentScene = player.GetComponent<Movement>().currentScene;
 
         if (currentScene == 0)
         {
+            
             cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
             left = -29.53f;
             right = -11f;
         }
         else if (currentScene == 1)
         {
+            player.GetComponent<Movement>().firstFloor = true;
             cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
             left = -11f;
             right = 10f;
@@ -76,7 +85,7 @@ public class CameraControl : MonoBehaviour
         */
         else if (currentScene == 3)
         {
-            
+
             /*
             if (!fade)
             {
@@ -86,22 +95,24 @@ public class CameraControl : MonoBehaviour
 
             //Debug.Log("fade: " + fadeScreen.GetComponent<SpriteRenderer>().color.a);
 
-            
+
             //if (fadeScreen.GetComponent<SpriteRenderer>().color.a >= 224)
             //{
+            player.GetComponent<Movement>().firstFloor = false;
                 cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
+
+            if (player.transform.position.y<secondFloor)
+            {
+                currentScene = 1;
+            }
+                
 
             //    Debug.Log("SWITCH");
             //    fade = true;
 
             //}
 
-            if (fade)
-            {
-                FadeIn();
-            }
 
-            
         }
 
     }

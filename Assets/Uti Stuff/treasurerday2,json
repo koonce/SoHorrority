@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "\"Hey Player, how's it going?\"\n\n[[Pretty good.|101]]\n[[I'm fine.|101]]",
+		"position": {
+			"x": 59,
+			"y": 168
+		},
+		"colorID": 0
+	},
+	{
+		"title": "101",
+		"tags": "",
+		"body": "\"That's good.\" She looks you up and down. \"Are you, uh, going to wear that to the party?\"\n\n[[Oh... yea.|201]]\n[[I was planning on it.|202]]",
+		"position": {
+			"x": 339,
+			"y": 170
+		},
+		"colorID": 0
+	},
+	{
+		"title": "201",
+		"tags": "",
+		"body": "\"I hate to nitpick and everything, but that outfit isn't really right for this kind of party, haha. It's sort of a bit more... high class, you know?\"\n\n[[Oh, okay.|301]]\n[[Oh shit, I'm sorry.|302]]",
+		"position": {
+			"x": 600,
+			"y": 166
+		},
+		"colorID": 0
+	},
+	{
+		"title": "301",
+		"tags": "",
+		"body": "\"Yea, I mean, you don't have to change if you don't want to, but you should look your best, you know? You're a star, and you deserve to shine.\"\n\n[[Okay, I'll go change.|401]]\n[[I'll be right back.|401]]",
+		"position": {
+			"x": 854,
+			"y": 313
+		},
+		"colorID": 0
+	},
+	{
+		"title": "302",
+		"tags": "",
+		"body": "\"Oh no no no, you don't have to apologize or anything. I mean like, you don't have to change if you don't want to or anything, but you know, you should look your best, you know? You're a star, and you deserve to shine.\"\n\n[[Okay, I'll go change.|401]]\n[[I'll be right back.|401]]",
+		"position": {
+			"x": 853,
+			"y": 91
+		},
+		"colorID": 0
+	},
+	{
+		"title": "401",
+		"tags": "",
+		"body": "\"Okay, great.\"\n\n[[Leave|end]]\n[[Leave|end]]",
+		"position": {
+			"x": 1099,
+			"y": 197
+		},
+		"colorID": 0
+	}
+]

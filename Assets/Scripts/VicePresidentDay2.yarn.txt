@@ -1,0 +1,174 @@
+title: Lily2
+tags: 
+colorID: 0
+position: 180,235
+---
+<<Speaking Lily>> <<Happy Lily>>
+"Okay, so, Zagan, Haagenti, Kimaris, Furfu-" VP notices you coming and smiles. 
+"Um, I'm going to have to call you back, Trav," she says as she hangs up the phone.
+"Heyyyy! How's it going?? Are you excited or what?"
+
+[[Yes, I can't wait!!|201]]
+[[Yea, but I'm so nervous!!|202]]
+===
+title: 201
+tags: 
+colorID: 0
+position: 487,123
+---
+<<Speaking Lucy>> <<Happy Lucy>>
+Yes, I can't wait!!
+<<Speaking Lily>> <<Happy Lily>>
+Right?? Like oh my god. This is always one of the best parties of the year. 
+Last year we put Pitch Perfect on every TV in the house at 4AM...
+...and every time the cup song played we'd pour a bottle of vodka in the pool!
+
+[[Wow, that's crazy!|301]]
+===
+title: 202
+tags: 
+colorID: 0
+position: 315,501
+---
+<<Speaking Lucy>> <<Happy Lucy>>
+Yea, but I'm so nervous!!
+<<Speaking Lily>> <<Happy Lily>>
+Oh my god, Lucy, don't be nervous, this is the best party of the year! 
+Last year we put Pitch Perfect on every TV in the house at 4AM... 
+...and every time the cup song played we'd pour a bottle of vodka in the pool!
+
+[[Wow, that's crazy!|301]]
+===
+title: 301
+tags: 
+colorID: 0
+position: 688,417
+---
+<<Speaking Lucy>> 
+Wow, that's crazy!
+<<Speaking Lily>>
+"Oh my god, I know right, I did like, so many cannonballs, haha."
+
+[[So what are you up to?|401c]]
+[[What are you doing out here?|401b]]
+===
+title: 401c
+tags: 
+colorID: 0
+position: 962,433
+---
+<<Speaking Lucy>> <<Normal Lucy>> <<Normal Lily>>
+So what are you up to?
+<<Speaking Lily>>
+Oh, you know, just organizing, like, everything! 
+I was just telling my boyfriend Travis what he needs to get for the party...
+...and before that I was helping Emma with her outfit...
+...and before that I was choosing whether to buy the red Doritos or the blue Doritos... 
+It's been such a crazy day, haha.
+
+[[Wow, you're amazing.|501]]
+[[How do you manage all that??|502]]
+===
+title: 502
+tags: 
+colorID: 0
+position: 1375,687
+---
+<<Speaking Lucy>>
+How do you manage all that??
+<<Speaking Lily>> <<Happy Lily>>
+Honestly I like don't even know, I just go crazy for parties, I guess, haha.
+What about you, though, girl? I was like, losing my mind my first weekend, for real, and like you're over here not even breaking a sweat!
+
+[[Hahaha, thank you.|601]]
+[[Oh my god, stop it, haha.|601]]
+===
+title: 501
+tags: 
+colorID: 0
+position: 1295,370
+---
+<<Speaking Lucy>> 
+Wow, you're amazing.
+<<Speaking Lily>> <<Happy Lily>>
+Oh my god, girl, no way, you're the amazing one. 
+I was like, losing my mind my first weekend, for real, and like you're over here not even breaking a sweat.
+
+[[Hahaha, thank you.|601]]
+[[Oh my god, stop it, haha.|601]]
+===
+title: 601
+tags: 
+colorID: 0
+position: 1614,266
+---
+<<Speaking Lucy>> <<Happy Lucy>>
+Hahaha, thank you.
+<<Speaking Lily>> <<Normal Lily>> <<Normal Lucy>>
+Hahaha, yea. Sorry to change the topic, but I was wondering if you preferred Ocho or Patron, because I'm like, on the fence. 
+And like Travis and President are so into Ocho, and I'm just not sure, you know?
+<<Speaking Lucy>> <<Sad Lucy>>
+(You don't know what either of those things are. It sounds like alcohol.)
+
+[[I like Ocho more.|701]]
+[[Definitely Patron.|702]]
+===
+title: 702
+tags: 
+colorID: 0
+position: 1923,635
+---
+<<Speaking Lucy>> <<Normal Lucy>>
+Definitely Patron.
+<<Speaking Lily>> <<Happy Lily>>
+Okay! I'll let Travis know when I call him back, so he can get Patron. 
+<<Sad Lucy>> <<Normal Lily>>
+You're totally okay drinking, right? I have to ask at least once, haha.
+
+[[Yea, of course!|801]]
+===
+title: 701
+tags: 
+colorID: 0
+position: 1910,284
+---
+<<Speaking Lucy>> <<Normal Lucy>>
+I like Ocho more.
+<<Speaking Lily>> <<Happy Lily>>
+Okay, well I'll let Travis know when I call him back, so he can get Ocho. 
+<<Sad Lucy>> <<Normal Lily>>
+You're totally okay drinking, right? I have to ask at least once, haha.
+
+[[Yea, of course!|801]]
+===
+title: 801
+tags: 
+colorID: 0
+position: 2166,253
+---
+<<Speaking Lucy>> <<Happy Lucy>>
+Yea, of course!
+<<Speaking Lily>> <<Happy Lily>>
+Awesome!! Oh my god, I'm so excited, it's gonna be so much fun! 
+I'll see you later, okay? I'm gonna call Trav back.
+
+[[Okay! Bye.|done]]
+[[See you later!|done]]
+===
+title: 401b
+tags: 
+colorID: 0
+position: 847,711
+---
+<<Speaking Lucy>> <<Normal Lucy>> <<Normal Lily>>
+What are you doing out here?
+<<Speaking Lily>>
+Oh, you know, just organizing, like, everything! 
+I was just telling my boyfriend Travis what he needs to get for the party...
+...and before that I was helping Emma with her outfit...
+...and before that I was choosing whether to buy the red Doritos or the blue Doritos... 
+It's been such a crazy day, haha.
+
+[[Wow, you're amazing.|501]]
+[[How do you manage all that??|502]]
+===

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 
 
@@ -10,8 +11,11 @@ namespace Yarn.Unity
     {
         public GameObject dialog;
         public GameObject text;
-        public float xVar;
-        public float yVar;
+        public float xVar = 4f;
+        public float yVar = .3f;
+        public TextMeshPro cname;
+
+        public GameObject dr;
 
         public Vector3 pos;
 
@@ -24,14 +28,19 @@ namespace Yarn.Unity
         // Update is called once per frame
         void Update()
         {
-
+            pos = this.transform.position;
+            if (dr.GetComponent<DialogueUI>().deciding)
+            {
+                cname.text = "";
+            }
         }
 
         [YarnCommand("Speaking")]
         public void Talking()
         {
+            cname.text = this.name;
             Debug.Log("called Yarn command");
-            Vector3 newPos = new Vector3(pos.x + xVar, pos.y + yVar, pos.z);
+            Vector3 newPos = new Vector3(pos.x + xVar, pos.y + yVar, dialog.transform.position.z);
 
             dialog.transform.position = newPos;
             dialog.transform.parent = this.transform;
