@@ -42,7 +42,7 @@
 	{
 		"title": "301k",
 		"tags": "",
-		"body": "<<Speaking Kayla>>Yea, it's nice to meet you too!\n<<Speaking Jaycee>>What did you guys think of the speech and everything?\n\n[[It was great!|401k]]\n[[She seems so cool.|402k]]",
+		"body": "<<Speaking Kayla>>Yeah, it's nice to meet you too!\n<<Speaking Jaycee>>What did you guys think of the speech and everything?\n\n[[It was great!|401k]]\n[[She seems so cool.|402k]]",
 		"position": {
 			"x": 721,
 			"y": 320
@@ -52,7 +52,7 @@
 	{
 		"title": "402k",
 		"tags": "",
-		"body": "<<Speaking Jaycee>>Oh my god, so cool. The commandments and everything were like so cute.\n<<Speaking Kayla>>I don't know, a couple of them were kind of weird.\n<<Speaking Jaycee>>What do you mean?? Like, which ones?\n<<Speaking Kayla>>Uhhh... I mean, the one about puking in public was kinda weird, 'cause like, sometimes you don't really have a choice, you know?\n<<Speaking Jaycee>>What? And embarrass our family? Are you kidding?\n\n[[It's just weird because you're new.|501k]]\n[[Yea, it was a little weird.|502k]]",
+		"body": "<<Speaking Jaycee>>Oh my god, so cool. The commandments and everything were like, so cute.\n<<Speaking Kayla>>I don't know, a couple of them were kind of weird.\n<<Speaking Jaycee>>What do you mean?? Like, which ones?\n<<Speaking Kayla>>Uhhh... I mean, the one about puking in public was kinda weird, 'cause like, sometimes you don't really have a choice, you know?\n<<Speaking Jaycee>>What? And embarrass our family? Are you kidding?\n\n[[It's just weird because you're new.|501k]]\n[[Yeah, it was a little weird.|502k]]",
 		"position": {
 			"x": 991,
 			"y": 552
@@ -62,7 +62,7 @@
 	{
 		"title": "401k",
 		"tags": "",
-		"body": "<<Speaking Jaycee>>Oh my god, so great. The commandments and everything were like so cute.\n<<Speaking Kayla>>I don't know, a couple of them were kind of weird.\n<<Speaking Jaycee>>What do you mean?? Like, which ones?\n<<Speaking Kayla>>Uhhh... I mean, the one about puking in public was kinda weird, 'cause like, sometimes you don't really have a choice, you know?\n<<Speaking Jaycee>>What? And embarrass our family? Are you kidding?\n\n[[It's just weird because you're new.|501k]]\n[[Yea, it was a little weird.|502k]]",
+		"body": "<<Speaking Jaycee>>Oh my god, so great. The commandments and everything were like, so cute.\n<<Speaking Kayla>>I don't know, a couple of them were kind of weird.\n<<Speaking Jaycee>>What do you mean?? Like, which ones?\n<<Speaking Kayla>>Uhhh... I mean, the one about puking in public was kinda weird, 'cause like, sometimes you don't really have a choice, you know?\n<<Speaking Jaycee>>What? And embarrass our family? Are you kidding?\n\n[[It's just weird because you're new.|501k]]\n[[Yeah, it was a little weird.|502k]]",
 		"position": {
 			"x": 983,
 			"y": 316
@@ -72,7 +72,7 @@
 	{
 		"title": "502k",
 		"tags": "",
-		"body": "<<Speaking Jaycee>>What?? I can't believe you guys are saying this.\n<<Speaking Kayla>>Yea, I don't know.\n<<Speaking Jaycee>>I think we should be really grateful for them letting us stay here and everything. \n<<Speaking Jaycee>>They're doing a really nice thing for us, and they're like so welcoming.\n<<Speaking Jaycee>>I mean like the least we can do is follow their rules, you know?\n<<Speaking Kayla>>I just feel weird about having to follow rules just to be friends with people.\n\n[[I know what you mean.|601k]]\n[[I think it'll pass.|602k]]",
+		"body": "<<Speaking Jaycee>>What?? I can't believe you guys are saying this.\n<<Speaking Kayla>>Yeah, I don't know.\n<<Speaking Jaycee>>I think we should be really grateful for them letting us stay here and everything. \n<<Speaking Jaycee>>They're doing a really nice thing for us, and they're like so welcoming.\n<<Speaking Jaycee>>I mean like the least we can do is follow their rules, you know?\n<<Speaking Kayla>>I just feel weird about having to follow rules just to be friends with people.\n\n[[I know what you mean.|601k]]\n[[I think it'll pass.|602k]]",
 		"position": {
 			"x": 1313,
 			"y": 615
@@ -82,7 +82,7 @@
 	{
 		"title": "501k",
 		"tags": "",
-		"body": "<<Speaking Jaycee>>Yea, it's just because you're new.\n<<Speaking Kayla>>I don't know, I guess.\n<<Speaking Jaycee>>I mean, I think we should be really grateful for them letting us stay here and everything. \n<<Speaking Jaycee>>It takes a lot of time and effort and like, money for this sort of thing, you know?\n<<Speaking Jaycee>>We can totally like follow their rules in return, you know?\n<<Speaking Kayla>>I just feel weird about having to follow rules just to be friends with people.\n\n[[I know what you mean.|601k]]\n[[The feeling will pass.|602k]]",
+		"body": "<<Speaking Jaycee>>Yeah, it's just because you're new.\n<<Speaking Kayla>>I don't know, I guess.\n<<Speaking Jaycee>>I mean, I think we should be really grateful for them letting us stay here and everything. \n<<Speaking Jaycee>>It takes a lot of time and effort and like, money for this sort of thing, you know?\n<<Speaking Jaycee>>We can totally like, follow their rules in return, you know?\n<<Speaking Kayla>>I just feel weird about having to follow rules just to be friends with people.\n\n[[I know what you mean.|601k]]\n[[The feeling will pass.|602k]]",
 		"position": {
 			"x": 1302,
 			"y": 195
@@ -92,7 +92,7 @@
 	{
 		"title": "602k",
 		"tags": "",
-		"body": "<<Speaking Kayla>>Yea, you're probably right.\n<<Speaking Kayla>>I mean, I'm not trying to say I hate them or anything, or like, I'm going to leave.\n<<Speaking Kayla>>I get anxious about things sometimes, I'm... probably overthinking it.\n<<Speaking Jaycee>>Well that's what they're here for, you know?\n<<Speaking Jaycee>>Like, your anxiety. They're your sisters now, and they're here to support you.\n<<Speaking Kayla>>Yea, that's true.\n\n[[It's going to be okay.|701k]]\n[[We're here for you.|702k]]",
+		"body": "<<Speaking Kayla>>Yeah, you're probably right.\n<<Speaking Kayla>>I mean, I'm not trying to say I hate them or anything, or like, I'm going to leave.\n<<Speaking Kayla>>I get anxious about things sometimes, I'm... probably overthinking it.\n<<Speaking Jaycee>>Well that's what they're here for, you know?\n<<Speaking Jaycee>>Like, your anxiety. They're your sisters now, and they're here to support you.\n<<Speaking Kayla>>Yeah, that's true.\n\n[[It's going to be okay.|701k]]\n[[We're here for you.|702k]]",
 		"position": {
 			"x": 1555,
 			"y": 615
@@ -102,7 +102,7 @@
 	{
 		"title": "601k",
 		"tags": "",
-		"body": "<<Speaking Jaycee>>I'm just so surprised.\n<<Speaking Kayla>>I mean I'm not trying to say I hate them or anything, or like, I'm going to leave.\n<<Speaking Kayla>>I get anxious about things sometimes, I'm probably overthinking it.\n<<Speaking Jaycee>>Well that's what they're here for, you know?\n<<Speaking Jaycee>>Like, your anxiety. They're your sisters now, and they're here to support you.\n<<Speaking Kayla>>Yea, that's true.\n\n[[It's going to be okay.|701k]]\n[[We're here for you.|702k]]",
+		"body": "<<Speaking Jaycee>>I'm just so surprised.\n<<Speaking Kayla>>I mean I'm not trying to say I hate them or anything, or like, I'm going to leave.\n<<Speaking Kayla>>I get anxious about things sometimes, I'm probably overthinking it.\n<<Speaking Jaycee>>Well that's what they're here for, you know?\n<<Speaking Jaycee>>Like, your anxiety. They're your sisters now, and they're here to support you.\n<<Speaking Kayla>>Yeah, that's true.\n\n[[It's going to be okay.|701k]]\n[[We're here for you.|702k]]",
 		"position": {
 			"x": 1560,
 			"y": 193
@@ -112,7 +112,7 @@
 	{
 		"title": "702k",
 		"tags": "",
-		"body": "<<Speaking Jaycee>>Yea, we're totally here for you.\n<<Speaking Kayla>>Thanks, you guys, I really appreciate it.\n<<Speaking Kayla>>I'm really sorry for being so weird, I wasn't trying to be too negative or anything.\n\n[[It's okay!|801k]]\n[[No worries.|801k]]",
+		"body": "<<Speaking Jaycee>>Yeah, we're totally here for you.\n<<Speaking Kayla>>Thanks, you guys, I really appreciate it.\n<<Speaking Kayla>>I'm really sorry for being so weird, I wasn't trying to be too negative or anything.\n\n[[It's okay!|801k]]\n[[No worries.|801k]]",
 		"position": {
 			"x": 1799,
 			"y": 624
@@ -122,7 +122,7 @@
 	{
 		"title": "701k",
 		"tags": "",
-		"body": "<<Speaking Jaycee>>Yea, it's totally going to be okay.\n<<Speaking Kayla>>Thanks, you guys, I really appreciate it.\n<<Speaking Kayla>>I'm really sorry for being so weird, I wasn't trying to be too negative or anything.\n\n[[It's okay!|801k]]\n[[No worries.|801k]]",
+		"body": "<<Speaking Jaycee>>Yeah, it's totally going to be okay.\n<<Speaking Kayla>>Thanks, you guys, I really appreciate it.\n<<Speaking Kayla>>I'm really sorry for being so weird, I wasn't trying to be too negative or anything.\n\n[[It's okay!|801k]]\n[[No worries.|801k]]",
 		"position": {
 			"x": 1792,
 			"y": 190
