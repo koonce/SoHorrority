@@ -1,0 +1,63 @@
+[
+
+	{
+		"title": "106",
+		"tags": "",
+		"body": "<<Ouija Lily>> <<Speaking Morgan>>Y...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>S...\n<<Speaking Jaycee>>Wow...\n<<Speaking Morgan>>You can ask another question.\n\n[[I miss you so much.|AnimLoveYou]]\n[[Are you okay?|AnimMissYou]]",
+		"position": {
+			"x": 1550,
+			"y": 206
+		},
+		"colorID": 0
+	},
+		{
+		"title": "AnimMissYou",
+		"tags": "",
+		"body": "<<Speaking NoOne>> <<AnimateIt planchette2>>",
+		"position": {
+			"x": 1847,
+			"y": 360
+		},
+		"colorID": 0
+	},
+			{
+		"title": "AnimLoveYou",
+		"tags": "",
+		"body": "<<Speaking NoOne>> <<AnimateIt2 planchette2>>",
+		"position": {
+			"x": 1847,
+			"y": 360
+		},
+		"colorID": 0
+	},
+	{
+		"title": "108",
+		"tags": "",
+		"body": "<<Speaking Morgan>>I...\n<<Speaking Morgan>>M...\n<<Speaking Morgan>>I...\n<<Speaking Morgan>>S...\n<<Speaking Morgan>>S...\n<<Speaking Morgan>>Y...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>U...\n\n[[Am I doing the right thing?|AnimMissYou]]\n[[What should I do with my life?|AnimMissYou]]",
+		"position": {
+			"x": 1847,
+			"y": 360
+		},
+		"colorID": 0
+	},
+	{
+		"title": "107",
+		"tags": "",
+		"body": "<<Speaking Morgan>>I...\n<<Speaking Morgan>>L...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>V...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>Y...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>U...\n\n[[Am I doing the right thing?|AnimLoveYou]]\n[[What should I do with my life?|AnimLoveYou]]",
+		"position": {
+			"x": 1841,
+			"y": 133
+		},
+		"colorID": 0
+	},
+	{
+		"title": "109",
+		"tags": "",
+		"body": "<<Speaking Morgan>>Y...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>U...\n<<Speaking Morgan>>B...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>L...\n<<Speaking Morgan>>O...\n<<Speaking Morgan>>N...\n<<Speaking Morgan>>G...\n<<Speaking Morgan>>H...\n<<Speaking Morgan>>E...\n<<Speaking Morgan>>R...\n<<Speaking Morgan>>E... <<ChangeScene Lily>>",
+		"position": {
+			"x": 2086,
+			"y": 212
+		},
+		"colorID": 0
+	}
+]

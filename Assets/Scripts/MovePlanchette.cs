@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class MovePlanchette : MonoBehaviour
 {
 
     public Animator anim;
     public bool touching = false;
+
+    public GameObject planchette;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +23,7 @@ public class MovePlanchette : MonoBehaviour
 
         anim = GameObject.Find("planchette2").GetComponent<Animator>();
 
-        if (touching)
+        if (touching && planchette.GetComponent<PlanchetteAnimation>().ouijaTime)
         {
             anim.speed = 1;
         }

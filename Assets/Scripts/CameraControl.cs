@@ -44,13 +44,16 @@ public class CameraControl : MonoBehaviour
 
         
 
-        if (player.transform.position.y>9)
+        if (player.transform.position.y>9 && currentScene == 1)
         {
             currentScene = 4;
 
-        } else if(player.transform.position.x < left) {
+        }
+        if (player.transform.position.x < left) {
             currentScene--;
-        } else if(player.transform.position.x > right) {
+        } 
+        
+        if(player.transform.position.x >= right) {
             currentScene++;
         }
         //currentScene = player.GetComponent<Movement>().currentScene;
@@ -100,6 +103,8 @@ public class CameraControl : MonoBehaviour
             //{
             player.GetComponent<Movement>().firstFloor = false;
                 cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
+            left = -11f;
+            right = 10f;
 
             if (player.transform.position.y<secondFloor)
             {
@@ -116,13 +121,18 @@ public class CameraControl : MonoBehaviour
         }
 
         else if (currentScene == 3) {
+
             player.GetComponent<Movement>().firstFloor = false;
             cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
+            left = -29.53f;
+            right = -11f;
         }
 
         else if (currentScene == 5) {
             player.GetComponent<Movement>().firstFloor = false;
             cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
+            left = 10f;
+            right = 30.72f;
         }
 
     }

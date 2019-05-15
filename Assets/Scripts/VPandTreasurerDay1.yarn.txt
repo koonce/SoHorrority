@@ -80,6 +80,6 @@ Sounds great.
 <<Speaking Lily>> <<Happy Lily>>
 Awesome! I'll see you later then.
 
-[[Okay, bye!|501]]
-[[See you later!|501]]
+[[Okay, bye!]]
+[[See you later!]]
 ===

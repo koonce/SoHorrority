@@ -9,6 +9,12 @@ public class Grab : MonoBehaviour
 
     public GameObject name;
 
+    public GameObject fade;
+
+    public float fadeSpeed = .1f;
+
+    bool next = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +24,18 @@ public class Grab : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (next)
+        {
+            Color color = fade.GetComponent<SpriteRenderer>().color;
+            color.a += fadeSpeed;
+            fade.GetComponent<SpriteRenderer>().color = color;
+
+            Debug.Log("fade is " + color.a);
+            if (color.a>=6)
+            {
+                SceneManager.LoadScene(nextScene);
+            }
+        }
     }
 
     void OnTriggerStay2D(Collider2D collision)
@@ -29,7 +46,8 @@ public class Grab : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("k go to next scene");
-                SceneManager.LoadScene(nextScene);
+
+                next = true;
             }
         }
     }

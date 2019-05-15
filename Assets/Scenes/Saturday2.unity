@@ -2887,6 +2887,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: 
   name: {fileID: 0}
+  fade: {fileID: 0}
+  fadeSpeed: 0.1
 --- !u!114 &901722701 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2248052646824786232, guid: 72c6db62ed95843479cfd4cb98f0987e,
@@ -2979,7 +2981,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904281451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.66, y: -1.99, z: 0}
+  m_LocalPosition: {x: -1.16, y: -1.7, z: 0}
   m_LocalScale: {x: 0.69457614, y: 0.69457614, z: 0.69457614}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2998,6 +3000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   step: 0.1
+  stepX: 1
   dr: {fileID: 265550048}
   top: -0.83
   bottom: -3.67
@@ -6378,6 +6381,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextScene: 
   name: {fileID: 0}
+  fade: {fileID: 0}
+  fadeSpeed: 0.1
 --- !u!1001 &2248052646111939445
 PrefabInstance:
   m_ObjectHideFlags: 0

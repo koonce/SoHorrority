@@ -11,6 +11,9 @@ public class FillUpCup : MonoBehaviour
 
     public int drinks = 0;
 
+    public GameObject background;
+    public Sprite dizzyBackground;
+
     float speed = 1.0f; //how fast it shakes
     float amount = 1.0f; //how much it shakes
 
@@ -30,6 +33,7 @@ public class FillUpCup : MonoBehaviour
                 if (drinks > 5)
                 {
                     GetComponent<SpriteRenderer>().sprite = bloodCup;
+                    background.GetComponent<SpriteRenderer>().sprite = dizzyBackground;
                 }
                 else
                 {

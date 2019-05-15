@@ -60,8 +60,13 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
     void Update()
     {
         //lineText = GameObject.Find("Dialogue");
-    
-        if (this.gameObject.GetComponent<DialogueRunner>().deciding)
+
+        if (!this.gameObject.GetComponent<DialogueRunner>().isDialogueRunning)
+        {
+            dialogueContainer.SetActive(false);
+            decideContainer.SetActive(false);
+        }
+        else if (this.gameObject.GetComponent<DialogueRunner>().deciding)
         {
             dialogueContainer.SetActive(false);
             decideContainer.SetActive(true);
@@ -69,11 +74,6 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
         else if (this.gameObject.GetComponent<DialogueRunner>().isDialogueRunning)
         {
             dialogueContainer.SetActive(true);
-            decideContainer.SetActive(false);
-        }
-        else if (!this.gameObject.GetComponent<DialogueRunner>().isDialogueRunning)
-        {
-            dialogueContainer.SetActive(false);
             decideContainer.SetActive(false);
         }
         

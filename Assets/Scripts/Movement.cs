@@ -6,6 +6,7 @@ using Yarn.Unity;
 public class Movement : MonoBehaviour
 {
     public float step = 1;
+    public float stepX = 1f;
     public GameObject dr;
     bool dialogueStarted = false;
 
@@ -72,7 +73,7 @@ public class Movement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A) && pos.x > maxLeft)
             {
-                pos.x -= step;
+                pos.x -= stepX;
                 this.GetComponent<SpriteRenderer>().flipX = false;
                 GetComponent<Animator>().SetBool("walking", true);
             } else if(Input.GetKeyUp(KeyCode.A)) {
@@ -81,7 +82,7 @@ public class Movement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.D) && pos.x < maxRight)
             {
-                pos.x += step;
+                pos.x += stepX;
                 this.GetComponent<SpriteRenderer>().flipX = true;
                 GetComponent<Animator>().SetBool("walking", true);
             } else if(Input.GetKeyUp(KeyCode.D)) {
