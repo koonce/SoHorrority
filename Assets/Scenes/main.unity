@@ -5092,7 +5092,7 @@ PrefabInstance:
     - target: {fileID: 2543837927616434674, guid: 8b8b186909a11bf4bbd6c734b1fc14be,
         type: 3}
       propertyPath: sourceText.Array.size
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2543837927616434674, guid: 8b8b186909a11bf4bbd6c734b1fc14be,
         type: 3}
