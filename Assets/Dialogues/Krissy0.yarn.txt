@@ -1,0 +1,44 @@
+title: K0
+tags: 
+colorID: 0
+position: 540,260
+---
+<<Speaking Krissy>>
+
+Hey sisters! I’d like to give a big ΛΛ Lambda Lambda welcome to our newest pledges on our initiation weekend sleepover!
+I am so excited to get to know all of you and hope you enjoy our luxurious Lambda Lambda house.
+Okay, I know it’s not a castle, but it’s better than Kappa Gamma Chi across the street!
+Last year, the brothers hired someone to deep clean the entire house and it still smells like sweat and beer.
+<<Happy Krissy>>
+Lucky for you, the sisters and I give off a slightly better odor. At least I hope, hahaha.
+We really want you to have a fantastic weekend for us in the final round of recruitment...
+...but before that we need to go over the Ten Lambda Lambda Commandments.
+One. Thou must maintain at least a 2.5 GPA.
+You’re all capable of it. Intelligence is a value here.
+Two. Thou shall never wear high heels to a frat party.
+Trust us.
+Three. Thou must always change if a sister is wearing the same outfit.
+I know this sounds nitpicky, but let’s be real. It’s not twin day at summer camp.
+Four. Pay your dues on time.
+You can make out your checks to Lambda Lambda Organization. Please bring them in on the first of the month.
+Five. Thou shall refrain from puking in public.
+Self-explanatory.
+Six. Thou must know the Greek alphabet.
+<<Sad Krissy>>
+Yes, there will be a test.
+<<Normal Krissy>>
+Seven. Never will thy judge a sister.
+Eight. Thou shall always have class.
+Nine. Thou shall party with those Fraternity brothers.
+Ten. Love thy sisters and thy sisters will love thou.
+We are your friends, your family, and your support system. 
+<<Sad Krissy>>
+But we can only do that for you if you respect Lambda Lambda.
+<<Happy Krissy>>
+Okay, enough with the rules. This weekend is all about fun, so get to know one another!
+Just a reminder not to enter the Chapter Room. It’s for the sisters, not the pledges.
+And don’t forget, after you’re done socializing with your potential sisters, 
+grab your pledge charm: a cat paw that should be sitting right upstairs!
+Have fun!
+<<ChangeScene Krissy>>
+===

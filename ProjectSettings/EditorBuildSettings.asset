@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Beginning.unity
+    path: Assets/Scenes/Beginning.unity
     guid: eaca04714662f05469e29f1692e5a2e8
   - enabled: 1
     path: Assets/Scenes/main.unity
     guid: ac4aa5a67e7cac247adfe34864d6e9ac
   - enabled: 1
-    path: Assets/Saturday.unity
+    path: Assets/Scenes/Saturday.unity
     guid: beff24eee4150724d8cf78877780261e
   - enabled: 1
     path: Assets/Scenes/Frinight.unity
