@@ -13,16 +13,14 @@ tags:
 colorID: 0
 position: 403,389
 ---
-<<Speaking Lucy>> <<Happy Lucy>> <<Normal Morgan>> <<Normal Lily>>
-I'm excited!
 <<Speaking Morgan>> <<Normal Lucy>> <<Happy Morgan>>
 That's great to hear.
 <<Speaking Lily>> <<Normal Morgan>> <<Happy Lily>>
 We're so happy to finally be meeting everyone properly, this season is always so exciting.
 All of you guys seem so put together!
-I was like freaking out when I joined Lambda Lambda, but you guys have your shit together.
+I was like, freaking out when I joined Lambda Lambda, but you guys have your shit together.
 <<Speaking Morgan>> <<Happy Morgan>>
-Yea, me too.
+Yeah, me too.
 
 [[Thanks!|301]]
 [[It can be overwhelming, haha.|302]]
@@ -32,27 +30,24 @@ tags:
 colorID: 0
 position: -35,373
 ---
-<<Speaking Lucy>> <<Happy Lucy>>
-Sure am!
 <<Speaking Lily>> <<Normal Lucy>> <<Happy Lily>>
 Great to have you here! This is Morgan, the Treasurer.
 <<Speaking Morgan>> <<Normal Lily>> <<Happy Morgan>>
 Hi. How are you doing?
 
 [[I'm excited!|201]]
+[[I'm doing okay.|201]]
 ===
 title: 302
 tags: 
 colorID: 0
 position: 653,567
 ---
-<<Speaking Lucy>> <<Sad Lucy>>
-It can be overwhelming, haha.
 <<Speaking Lily>> <<Sad Lily>>
 Well, not too overwhelming, I hope.
 <<Normal Lily>> <<Normal Lucy>>
 All pledges are encouraged to come to us with any worries or concerns, we're here for you.
-[[Wow, that means a lot|301]]
+[[Wow, that means a lot.|301]]
 [[Thank you!|301]]
 ===
 title: 301
@@ -60,8 +55,6 @@ tags:
 colorID: 0
 position: 799,231
 ---
-<<Speaking Lucy>> <<Normal Lucy>> <<Normal Lily>>
-Thanks!
 <<Speaking Lily>>
 Yes, of course.
 <<Happy Lily>>
@@ -75,8 +68,6 @@ tags:
 colorID: 0
 position: 1286,157
 ---
-<<Speaking Lucy>> <<Happy Lucy>>
-Sounds great.
 <<Speaking Lily>> <<Happy Lily>>
 Awesome! I'll see you later then.
 

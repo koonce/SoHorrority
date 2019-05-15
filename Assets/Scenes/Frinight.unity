@@ -4517,21 +4517,6 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 4c625252a61efae47b6fe719bcc08f51, type: 3}
-    - target: {fileID: 7499463302229165999, guid: 731bfbe3184d78f45a0c783a03f8715c,
-        type: 3}
-      propertyPath: speech
-      value: 
-      objectReference: {fileID: 350747753}
-    - target: {fileID: 7499463302229165999, guid: 731bfbe3184d78f45a0c783a03f8715c,
-        type: 3}
-      propertyPath: song
-      value: 
-      objectReference: {fileID: 8300000, guid: 1576cba797ab5714798cdfde58292ca6, type: 3}
-    - target: {fileID: 7499463302229165999, guid: 731bfbe3184d78f45a0c783a03f8715c,
-        type: 3}
-      propertyPath: song2
-      value: 
-      objectReference: {fileID: 8300000, guid: 3dfa7d5aec8a0e74d8a70bf4407181cc, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 731bfbe3184d78f45a0c783a03f8715c, type: 3}
 --- !u!1 &2074596804
