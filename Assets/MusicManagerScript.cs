@@ -50,5 +50,24 @@ public class MusicManagerScript : MonoBehaviour
                 ouijaMusic.loop = true;
             }
         }
+        if (SceneManager.GetActiveScene().name == "Sunnight")
+        {
+            mainAudioSource.volume = volumeBool;
+            if (speech.GetComponent<TextMeshPro>().text == "triggertext" && !ouijaBool)
+            {
+                ouijaBool = true;
+            }
+            if (ouijaBool)
+            {
+                if (volumeBool < 1) { volumeBool += 0.0001f; }
+            }
+            if (speech.GetComponent<TextMeshPro>().text == "triggertext2" && ouijaBool)
+            {
+                mainAudioSource.clip = song;
+                mainAudioSource.Play();
+                mainAudioSource.loop = false;
+                ouijaBool = false;
+            }
+        }
     }
 }
