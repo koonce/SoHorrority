@@ -93,6 +93,8 @@ public class Movement : MonoBehaviour
             }
 
             this.transform.position = pos;
+        } else {
+            GetComponent<Animator>().SetBool("walking", false);
         }
 
     }
