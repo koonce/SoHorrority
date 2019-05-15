@@ -5821,6 +5821,8 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
   fadeScreen: {fileID: 1805953770}
   fadeSpeed: 1
 --- !u!4 &1922427515
