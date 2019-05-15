@@ -1,0 +1,225 @@
+title: SundayJaycee
+tags: 
+colorID: 0
+position: 683,-204
+---
+<<Speaking Lucy>> <<Happy Lucy>> <<Normal Jaycee>>
+Hey Jaycee, that was crazy yesterday!
+<<Speaking Jaycee>> <<Normal Lucy>> <<Sad Jaycee>>
+Yeah, haha...
+<<Speaking Lucy>> <<Sad Lucy>>
+Are you alright? 
+<<Speaking Jaycee>> <<Normal Lucy>> <<Happy Jaycee>>
+Of course I am silly! It was just a bit of alcohol and... well.
+<<Normal Jaycee>>
+I don't know if you heard about Kayla.
+[[Yeah, I did...|SundayJaycee1a]][[I didn't hear any details|SundayJaycee1b]]
+===
+title: SundayJaycee1a
+tags: 
+colorID: 0
+position: 597,77
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+Yeah, I did...
+<<Speaking Jaycee>> <<Sad Jaycee>>
+Crazy, what happened.
+I hope she's okay now. 
+<<Speaking Lucy>>
+Lily talked to me about it. She didn't seem to want to give out any details.
+<<Speaking Jaycee>> <<Normal Jaycee>> <<Normal Lucy>>
+Oh I can totally see why.
+It was, like, a bit traumatizing. 
+<<Speaking Lucy>>
+I can't remember any of it. 
+<<Speaking Jaycee>> 
+Oh wow, really? You were that drunk?
+[[Yeah, do you remember what happened?|SundayJaycee1c]][[Let's change the subject|SundayJaycee2b]]
+===
+title: SundayJaycee1b
+tags: 
+colorID: 0
+position: 241,1
+---
+<<Speaking Lucy>> <<Normal Lucy>> <<Normal Jaycee>>
+I didn't hear any details.
+<<Speaking Jaycee>>
+Oh, it was pretty serious. 
+<<Sad Jaycee>>
+She passed out and starting spasming. It was really scary.
+We called her mom and she said she had something called epilepts? 
+<<Speaking Lucy>>
+Epilepsy?
+<<Speaking Jaycee>>
+Yeah, that's the one. 
+It was kind of scary.
+[[Is she okay now?|SundayJaycee2a]][[Let's change subjects!|SundayJaycee2b]]
+===
+title: SundayJaycee2a
+tags: 
+colorID: 0
+position: 425,346
+---
+<<Speaking Lucy>> <<Sad Lucy>> <<Normal Jaycee>>
+Is she okay now?
+<<Speaking Jaycee>> <<Sad Jaycee>>
+I'm not sure, to be honest. 
+They took off her in a gurney.
+<<Speaking Lucy>> <<Normal Lucy>>
+I hope she's alright. She was really nice. 
+<<Speaking Jaycee>> <<Normal Jaycee>>
+Yeah, although I'm not sure the upper classmen thought so.
+But you didn't hear it from me.
+[[What do you mean by that?|SundayJaycee3a]][[Let's change the subject|SundayJaycee2b]]
+===
+title: SundayJaycee2b
+tags: 
+colorID: 0
+position: 926,318
+---
+<<Speaking Lucy>> <<Happy Lucy>>
+Let's change subjects! 
+Are you excited for the initiation?
+<<Speaking Jaycee>> <<Happy Jaycee>>
+Oh yeah, totally. 
+It's going to be wicked. 
+And we're all finally going to be sisters!
+<<Speaking Lucy>>
+Yeah, I'm super excited too.
+<<Speaking Jaycee>> <<Normal Lucy>> <<Normal Jaycee>>
+To be honest, maybe it was meant to be Kayla wouldn't be here for this.
+I don't think she was going to get accepted, anyways. 
+[[What do you mean by that?|SundayJaycee3a]]
+[[Yeah, she was kind of weird|SundayJaycee3b]]
+===
+title: SundayJaycee3a
+tags: 
+colorID: 0
+position: 599,590
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+What do you mean by that?
+<<Speaking Jaycee>> <<Sad Jaycee>>
+Um... nothing. 
+<<Speaking Lucy>>
+Come on, Jaycee. Spit it out.
+<<Speaking Jaycee>> <<Normal Lucy>> <<Normal Jaycee>>
+It's nothing, I swear. 
+I just heard them discussing her and the other pledges. Us. 
+They liked us more than her, is all.
+[[Wow, really? That's flattering|SundayJaycee4a]][[That's kinda fucked up|SundayJaycee4b]]
+===
+title: SundayJaycee3b
+tags: 
+colorID: 0
+position: 1098,572
+---
+<<Speaking Lucy>> <<Normal Lucy>> <<Normal Jaycee>>
+Yeah, she was kinda weird, wasn't she?
+<<Speaking Jaycee>>
+Uh huh, totally weird. 
+And... idk.
+She didn't seem to fit in with the rest of us.
+<<Speaking Lucy>> 
+I mean I hate saying that out loud, but you're right. 
+She wouldn't have been happy here, I think. 
+<<Speaking Jaycee>>
+Yeah, I think the upperclassmen thought so too...
+[[What do you mean by that?|SundayJaycee3a]][[Makes sense|SundayJaycee4c]]
+===
+title: SundayJaycee1c
+tags: 
+colorID: 0
+position: 1064,-41
+---
+<<Speaking Lucy>> <<Sad Lucy>> <<Normal Jaycee>>
+Yeah, do you remember what happened?
+<<Speaking Jaycee>> <<Normal Lucy>>
+Yeah, it was serious. 
+<<Sad Jaycee>>
+She passed out and starting spasming. It was really scary.
+We called her mom and she said she had something called epilepts? 
+<<Speaking Lucy>>
+Epilepsy?
+<<Speaking Jaycee>> <<Normal Jaycee>>
+Yeah, that's the one. 
+It was kind of scary.
+[[Is she okay now?|SundayJaycee2a]][[Let's change subjects!|SundayJaycee2b]]
+===
+title: SundayJaycee4a
+tags: 
+colorID: 0
+position: 357,825
+---
+<<Speaking Lucy>> <<Happy Lucy>> <<Normal Jaycee>>
+It is kind of flattering, I'll admit. 
+<<Speaking Jaycee>> <<Happy Jaycee>>
+I know right!
+I'm so glad they like us. I was kinda worried I embarassed myself last night.
+<<Speaking Lucy>>
+Me too, haha. 
+<<Sad Lucy>>
+Especially since I can't remember what happened,
+<<Speaking Jaycee>> <<Normal Jaycee>> <<Normal Lucy>>
+Was it your first time drinking like that? 
+[[Yeah|SundayJaycee5a]][[Nah, I've had experience|SundayJaycee5b]]
+===
+title: SundayJaycee4b
+tags: 
+colorID: 0
+position: 659,1019
+---
+<<Speaking Lucy>> <<Sad Lucy>> <<Normal Jaycee>>
+That's kinda fucked up.
+<<Speaking Jaycee>> <<Sad Jaycee>>
+A bit, yeah.
+<<Speaking Lucy>>
+I mean, I know the whole point of this was for them to judge us. 
+But considering the circumstances it just feels weird.
+<<Speaking Jaycee>> 
+Yeah, I know what you mean. 
+<<Normal Jaycee>> <<Normal Lucy>>
+It does feel kind of good knowing we're IN, so to speak.
+Doesn't it? 
+[[It is kind of flattering|SundayJaycee4a]] [[*Blush*|SundayJaycee4a]]
+===
+title: SundayJaycee4c
+tags: 
+colorID: 0
+position: 918,839
+---
+<<Speaking Lucy>> <<Normal Lucy>> <<Normal Jaycee>>
+Hate to say it, but it makes sense.
+<<Speaking Jaycee>>
+Yeah, she didn't really get "in" on any of our activities. 
+It totally looked like she wasn't interested.
+<<Speaking Lucy>> <<Sad Lucy>>
+Yeah...
+<<Speaking Jaycee>> <<Normal Lucy>>
+I'm so glad that we're in though.
+[[It is kind of flattering, I'll admit.|SundayJaycee4a]] [[*Blush*|SundayJaycee4a]]
+===
+title: SundayJaycee5a
+tags: 
+colorID: 0
+position: 239,1130
+---
+<<Speaking Lucy>> <<Normal Lucy>> <<Normal Jaycee>>
+Yeah. I have a crazy headache right now.
+<<Speaking Jaycee>>
+Yeah, me too...
+Well, I need to go get ready for the initiation. See ya!
+[[See ya|ConvoOver]] [[Peace out|ConvoOver]]
+===
+title: SundayJaycee5b
+tags: 
+colorID: 0
+position: 555,1298
+---
+<<Speaking Lucy>> <<Normal Lucy>> <<Normal Jaycee>>
+Nah, I've had experience
+<<Speaking Jaycee>>
+Wow, that's really cool. 
+Well, I need to go get ready for the initiation. See ya!
+[[See ya|ConvoOver]] [[Peace out|ConvoOver]]
+===

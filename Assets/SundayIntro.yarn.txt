@@ -1,0 +1,103 @@
+title: SundayIntro
+tags: 
+colorID: 0
+position: -128,-189
+---
+<<Speaking Lily>> <<Happy Lily>> <<Sad Lucy>>
+Hey slugger, you really got hammered last night!
+<<Speaking Lucy>> <<Happy Lucy>>
+Haha, yeah.
+<<Speaking Lily>> <<Normal Lily>> <<Normal Lucy>>
+You feeling alright?
+[[I'm feeling fine!|SundayIntro1a]][[I feel like hot garbage...|SundayIntro1b]]
+===
+title: SundayIntro1a
+tags: 
+colorID: 0
+position: -253,76
+---
+<<Speaking Lucy>> <<Happy Lucy>>
+I'm feeling fine!
+<<Speaking Lily>> <<Happy Lily>>
+Wow, you're a real pro!
+<<Normal Lily>> <<Normal Lucy>>
+Some of the other pledges are not doing so hot...
+<<Happy Lily>> <<Sad Lucy>>
+...well it's not worth thinking about.
+[[Yeah, not worth thinking about...|SundayIntro2a]][[What happened?|SundayIntro2b]]
+===
+title: SundayIntro1b
+tags: 
+colorID: 0
+position: 119,85
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+I feel like hot garbage...
+<<Speaking Lily>> <<Happy Lily>> <<Normal Lucy>>
+Well, you handled yourself a lot better than we were expecting.
+<<Sad Lily>>
+Some of the other pledges are not doing so hot...
+<<Normal Lily>>
+...well it's not worth thinking about.
+[[Yeah, not worth thinking about...|SundayIntro2a]][[What happened?|SundayIntro2b]]
+===
+title: SundayIntro2a
+tags: 
+colorID: 0
+position: -314,385
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+Yeah, not worth thinking about...
+<<Speaking Lily>> <<Normal Lucy>> <<Happy Lily>>
+Yeah, enough about that, we should be excited! 
+Your final initiation is tonigiht, after all. 
+<<Speaking Lucy>> <<Happy Lucy>>
+Yeah, I'm sooo excited!
+<<Speaking Lily>>
+Make sure you come dressed for success and congratulate your fellow pledges! 
+You’re almost Lambda Lambda sisters! 
+[[I can't wait!|SundayIntro3]] [[I'm so excited|SundayIntro3]]
+===
+title: SundayIntro2b
+tags: 
+colorID: 0
+position: 222,400
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+What happened?
+<<Speaking Lily>> <<Sad Lily>>
+Well, one of the girls couldn't handle their drink. 
+<<Speaking Lucy>>
+Are they okay?
+<<Speaking Lily>> <<Normal Lily>>
+Of course! But she won't able to join us today. 
+[[That's really sad...|SundayIntro2c]] [[That sucks...|SundayIntro2c]]
+===
+title: SundayIntro2c
+tags: 
+colorID: 0
+position: -48,397
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+That's really sad...
+<<Speaking Lily>> <<Happy Lily>> <<Normal Lucy>>
+Yeah, enough about that, we should be excited! 
+Your final initiation is tonigiht, after all. 
+<<Speaking Lucy>> <<Happy Lucy>>
+Yeah, I'm sooo excited!
+<<Speaking Lily>> 
+Make sure you come dressed for success and congratulate your fellow pledges! 
+You’re almost Lambda Lambda sisters! 
+[[I can't wait!|SundayIntro3]] [[I'm so excited|SundayIntro3]]
+===
+title: SundayIntro3
+tags: 
+colorID: 0
+position: -42,770
+---
+<<Speaking Lucy>> <<Happy Lucy>> 
+I can't wait!
+<<Speaking Lily>> <<Happy Lily>>
+Glad to hear it!
+[[See you soon!|Done]] [[Peace out|Done]]
+===
