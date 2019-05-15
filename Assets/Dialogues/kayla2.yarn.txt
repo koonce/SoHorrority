@@ -92,7 +92,7 @@
 	{
 		"title": "602a",
 		"tags": "",
-		"body": "<<Speaking Kayla>>That's true, I guess, but usually my gut feeling on these things is pretty good. \nShe pauses.\n<<Speaking Kayla>>I don't know, I guess maybe you're right.\n\n[[Is there anything like specific you can name?|701a]]\n[[Maybe you're just different from everyone else.|702a]]",
+		"body": "<<Speaking Kayla>>That's true, I guess, but usually my gut feeling on these things is pretty good. \n...\n<<Speaking Kayla>>I don't know, I guess maybe you're right.\n\n[[Is there anything like specific you can name?|701a]]\n[[Maybe you're just different from everyone else.|702a]]",
 		"position": {
 			"x": 1550,
 			"y": 340
@@ -102,7 +102,7 @@
 	{
 		"title": "703a",
 		"tags": "",
-		"body": "She stops for a moment. \n<<Speaking Kayla>>I guess you might be right. I, like... can be really anxious meeting new people.\n\n[[I'm sure you'll feel better after the party.|801a]]\n[[Yea, I can relate to that.|802a]]",
+		"body": "... \n<<Speaking Kayla>>I guess you might be right. I, like... can be really anxious meeting new people.\n\n[[I'm sure you'll feel better after the party.|801a]]\n[[Yea, I can relate to that.|802a]]",
 		"position": {
 			"x": 1961,
 			"y": 583
@@ -112,7 +112,7 @@
 	{
 		"title": "702a",
 		"tags": "",
-		"body": "<<Speaking Kayla>>Yea...\nShe doesn't say anything else.\n\n[[I'm sure you'll feel better after the party.|801a]]\n[[I think it'll turn out okay, everyone seems to like you.|803a]]",
+		"body": "<<Speaking Kayla>>Yea...\n*She looks at her feet.*\n\n[[I'm sure you'll feel better after the party.|801a]]\n[[I think it'll turn out okay, everyone seems to like you.|803a]]",
 		"position": {
 			"x": 1966,
 			"y": 338
@@ -122,7 +122,7 @@
 	{
 		"title": "701a",
 		"tags": "",
-		"body": "<<Speaking Kayla>>Well like, it's not that, it's not anything specific.\n<<Speaking Kayla>>It's how they act around other people, how they talk to them, and stuff. It's really subtle, it's not any one thing.\"\nShe sighs and rubs her face in her hands. \n<<Speaking Kayla>>I don't know, sometimes I just, like... get anxious meeting new people.\n\n[[I'm sure you'll feel better after the party.|801a]]\n[[Yea, I can relate to that.|802a]]",
+		"body": "<<Speaking Kayla>>Well like, it's not that, it's not anything specific.\n<<Speaking Kayla>>It's how they act around other people, how they talk to them, and stuff. It's really subtle, it's not any one thing.\"\n*She rubs her face in her hands.* \n<<Speaking Kayla>>I don't know, sometimes I just, like... get anxious meeting new people.\n\n[[I'm sure you'll feel better after the party.|801a]]\n[[Yea, I can relate to that.|802a]]",
 		"position": {
 			"x": 1971,
 			"y": 103
@@ -132,7 +132,7 @@
 	{
 		"title": "803a",
 		"tags": "",
-		"body": "She seems to brighten up a bit after that comment. \n<<Speaking Kayla>>Really? You think so?\n\n[[Yea, for sure!|801a]]\n[[Definitely.|801a]]",
+		"body": "<<Speaking Kayla>>Really? You think so?\n\n[[Yea, for sure!|801a]]\n[[Definitely.|801a]]",
 		"position": {
 			"x": 2330,
 			"y": 604
@@ -142,7 +142,7 @@
 	{
 		"title": "801a",
 		"tags": "",
-		"body": "<<Speaking Kayla>>I hope so. \nShe doesn't look fully convinced, but she's at least hopeful.\n\n[[Well, I'll see you later.|901a]]\n[[Okay, I have to go get ready.|901a]]",
+		"body": "<<Speaking Kayla>>I hope so. \n*She doesn't look fully convinced, but she's at least hopeful.*\n\n[[Well, I'll see you later.|901a]]\n[[Okay, I have to go get ready.|901a]]",
 		"position": {
 			"x": 2224,
 			"y": 112
@@ -162,7 +162,7 @@
 	{
 		"title": "802a",
 		"tags": "",
-		"body": "<<Speaking Kayla>>Thanks Lucy, I appreciate it. \nShe checks her watch. \n<<Speaking Kayla>>Oh shit, I have to go get ready.\n\n[[Okay, sounds good.|901a]]\n[[Okay! I'll see you later.|901a]]",
+		"body": "<<Speaking Kayla>>Thanks Lucy, I appreciate it. \n*She checks her watch.* \n<<Speaking Kayla>>Oh shit, I have to go get ready.\n\n[[Okay, sounds good.|901a]]\n[[Okay! I'll see you later.|901a]]",
 		"position": {
 			"x": 2268,
 			"y": 370
