@@ -1,0 +1,168 @@
+title: KrissyJaycee2
+tags: 
+colorID: 0
+position: 41,372
+---
+<<Speaking Krissy>>Heyyy!
+<<Speaking Jaycee>>What's up!
+
+[[It's good!|201w]]
+[[Great!|201w]]
+===
+title: 201w
+tags: 
+colorID: 0
+position: 290,370
+---
+<<Speaking Jaycee>>Oh my god aren't you like so excited for the party tonight?
+
+[[I can't wait!!|301w]]
+[[It's going to be amazingggg.|301w]]
+===
+title: 301w
+tags: 
+colorID: 0
+position: 540,368
+---
+<<Speaking Jaycee>>I know, right? I can't wait either!
+<<Speaking Krissy>>We were just talking about what mixers to bring and everything.
+<<Speaking Krissy>>Oh, by the way, what mixers do you think we should buy? I was just telling Ellie what to buy.
+
+[[Coke.|401w]]
+[[Um, more alcohol, haha.|402w]]
+===
+title: 402w
+tags: 
+colorID: 0
+position: 805,460
+---
+<<Speaking Krissy>>Hahaha, don't worry, we've got plenty.
+<<Speaking Krissy>>We're gonna need something else, though.
+<<Speaking Jaycee>>Oh, you should get lemonade! Lemonade is so good with vodka.
+<<Speaking Krissy>>Lemonade is way too sugary, Jaycee, haha.
+<<Speaking Krissy>>I don't want my teeth to get yellow.
+<<Speaking Jaycee>>Oh yea, you're totally right, I guess I didn't think about that. You're right, lemonade is disgusting.
+<<Speaking Krissy>>Well, I think I'll tell her to grab orange juice. There's a lot of low-sugar orange juice.
+<<Speaking Krissy>>I'll be right back.
+She turns around and leaves the conversation.
+
+[[So, how's it going?|501w]]
+[[What's up?|501w]]
+===
+title: 401w
+tags: 
+colorID: 0
+position: 818,233
+---
+<<Speaking Krissy>>Hmmm... I don't know.
+<<Speaking Jaycee>>Oh, you should get lemonade! Lemonade is so good with vodka.
+<<Speaking Krissy>>Lemonade is way too sugary, Jaycee, haha.
+<<Speaking Krissy>>I don't want my teeth to get yellow.
+<<Speaking Jaycee>>Oh yea, you're totally right, I guess I didn't think about that. You're right, lemonade is disgusting.
+<<Speaking Krissy>>Well, I think I'll tell her to grab orange juice. There's a lot of low-sugar orange juice.
+<<Speaking Krissy>>I'll be right back.
+She turns around and leaves the conversation.
+
+[[So, how's it going?|501w]]
+[[What's up?|501w]]
+===
+title: 501w
+tags: 
+colorID: 0
+position: 1070,372
+---
+<<Speaking Jaycee>>It's great!! 
+Jaycee giggles forcefully.
+<<Speaking Jaycee>>I still can't believe we're here! It's so amazing.
+
+[[Yea, it's great!|601w]]
+[[I know, it's like, pretty overwhelming, haha.|602w]]
+===
+title: 602w
+tags: 
+colorID: 0
+position: 1291,469
+---
+<<Speaking Jaycee>>I know, it's like, crazy.
+<<Speaking Jaycee>>But everyone is so nice and welcoming, I'm like, so comfortable around them. 
+<<Speaking Jaycee>>I've spent all morning thinking about how great the party's going to be and what it's going to be like. 
+<<Speaking Jaycee>>What do you think is going to happen?
+
+[[Um everyone's probably going to get really drunk.|702w]]
+[[It's going to be crazy!!|702w]]
+===
+title: 601w
+tags: 
+colorID: 0
+position: 1285,233
+---
+<<Speaking Jaycee>>I've been spending all day wondering what the party's going to be like!
+<<Speaking Jaycee>>I bet it's going to be so crazy, haha. What do you think?
+
+[[Um, everyone's probably going to get really drunk.|702w]]
+[[It's going to be crazy!!|702w]]
+===
+title: 702w
+tags: 
+colorID: 0
+position: 1566,349
+---
+<<Speaking Jaycee>>Oh my god, yea, I know. 
+<<Speaking Jaycee>>I wonder who's going to smash the pinata.
+
+[[What?|801w]]
+[[The pinata?|801w]]
+===
+title: 801w
+tags: 
+colorID: 0
+position: 1801,350
+---
+<<Speaking Jaycee>>Well, yea, the pinata! Every party has to have a pinata. 
+<<Speaking Jaycee>>That's like, the one thing about parties I know for sure.
+
+[[I haven't been to a party with a pinata in years.|901w]]
+[[Aren't those, like, a kid's thing?|902w]]
+===
+title: 901w
+tags: 
+colorID: 0
+position: 2039,245
+---
+<<Speaking Jaycee>>Oh, well yea, it was a joke, haha.
+<<Speaking Jaycee>>It's like going to be so crazy though!
+
+[[Yes!!|1001w]]
+[[I know right.|1001w]]
+===
+title: 902w
+tags: 
+colorID: 0
+position: 2043,460
+---
+<<Speaking Jaycee>>Oh, well yea, it was like, a joke, haha.
+<<Speaking Jaycee>>It's like going to be so crazy though!
+
+[[Yes!!|1001w]]
+[[I know right.|1001w]]
+===
+title: 1001w
+tags: 
+colorID: 0
+position: 2276,358
+---
+<<Speaking Jaycee>>Yes!!
+
+[[I think I have to go get ready, haha.|1101w]]
+[[I have to go but I'll see you later!|1101w]]
+===
+title: 1101w
+tags: 
+colorID: 0
+position: 2504,362
+---
+<<Speaking Jaycee>>Okay!! See you later.
+
+[[leave]]
+[[leave]]
+===

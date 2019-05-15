@@ -78,7 +78,7 @@ colorID: 0
 position: 926,318
 ---
 <<Speaking Lucy>> <<Happy Lucy>>
-Let's change subjects! 
+Let's change the subject! 
 Are you excited for the initiation?
 <<Speaking Jaycee>> <<Happy Jaycee>>
 Oh yeah, totally. 

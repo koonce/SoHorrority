@@ -31,6 +31,7 @@ public class MouseHand2 : MonoBehaviour
         pos.z = layer;
         pos.y = pos.y + offset;
         pos = Camera.main.ScreenToWorldPoint(pos);
+        pos = new Vector3(pos.x, pos.y * 2, pos.z);
 
         if (drinks > 3)
         {

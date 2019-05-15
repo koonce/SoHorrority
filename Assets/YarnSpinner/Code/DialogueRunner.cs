@@ -413,8 +413,17 @@ namespace Yarn.Unity
             return numberOfMethodsFound > 0;
         }
 
+        public void SelfHatredMachine()
+        {
+            foreach (var source in sourceText)
+            {
+                // load and compile the text
+                dialogue.LoadString(source.text, source.name);
+            }
+        }
     }
 
+    
     /// Apply this attribute to methods in your scripts to expose
     /// them to Yarn.
 

@@ -576,6 +576,7 @@ GameObject:
   - component: {fileID: 231594951}
   - component: {fileID: 231594957}
   - component: {fileID: 231594955}
+  - component: {fileID: 231594956}
   m_Layer: 0
   m_Name: planchette2
   m_TagString: Planchette
@@ -823,6 +824,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &231594956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231594950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7277ea816a16ac44ad66e7158d7c7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speech: {fileID: 350747753}
+  fade: {fileID: 1071707689}
 --- !u!114 &231594957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4092,12 +4107,12 @@ PrefabInstance:
         type: 3}
       propertyPath: sourceText.Array.data[0]
       value: 
-      objectReference: {fileID: 4900000, guid: d859b864462111c45a3fddda43a83f23, type: 3}
+      objectReference: {fileID: 4900000, guid: dead36e635a14ac4fb369a1f077af037, type: 3}
     - target: {fileID: 2543837927616434674, guid: 8b8b186909a11bf4bbd6c734b1fc14be,
         type: 3}
       propertyPath: sourceText.Array.data[1]
       value: 
-      objectReference: {fileID: 4900000, guid: 5a8c21f4d9e9c644ca00bd578bcb6147, type: 3}
+      objectReference: {fileID: 4900000, guid: 8018e443e72cddd418fc39230ad9eec7, type: 3}
     - target: {fileID: 2543837927616434674, guid: 8b8b186909a11bf4bbd6c734b1fc14be,
         type: 3}
       propertyPath: startNode

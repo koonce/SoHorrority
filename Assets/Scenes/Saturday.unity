@@ -1735,7 +1735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   step: 0.1
-  stepX: 1
+  stepX: 0.1
   dr: {fileID: 265550048}
   top: -0.83
   bottom: -3.67

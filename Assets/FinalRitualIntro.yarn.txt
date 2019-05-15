@@ -67,8 +67,7 @@ The Founder...?
 <<Speaking Krissy>>
 Yes.
 <<Speaking Lucy>>
-How is she still alive...?
-It must've been hundreds of years.
+I thought she was dead?
 <<Speaking Krissy>>
 Come, we will show you. Close your eyes.
 [[*Close eyes*|FinalRitual5]]
@@ -106,7 +105,7 @@ I promise, you'll feel so much better when you don't need to feel things quite a
 When you can trust us, your sisters. 
 <<Speaking Lily>>
 It's how these things have always been. Us sisters have always stuck together.
-[[...Ok|FinalRitual7]]
+[[...Okay.|FinalRitual7]]
 ===
 title: FinalRitual7
 tags: 
@@ -114,7 +113,7 @@ colorID: 0
 position: 320,849
 ---
 <<Speaking Lucy>>
-...Ok.
+...Okay.
 <<Speaking Krissy>>
 Good.
 Now, close your eyes. 

@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Frinight.unity
     guid: e3c7ec6b12ac85943ab872e4e8c8a4a7
   - enabled: 1
-    path: Assets/Scenes/Saturday.unity
-    guid: beff24eee4150724d8cf78877780261e
+    path: Assets/Scenes/Saturday2.unity
+    guid: 2eb1a0af70e2ed24d9fdf8c5e0b2ae39
   - enabled: 1
     path: Assets/Scenes/Saturnight.unity
     guid: a0ca1310963d7af41b9053ead48276e3
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sunnight.unity
     guid: abeecaf4850a0734fa086ba324bac8de
+  - enabled: 0
+    path: Assets/Scenes/Saturday.unity
+    guid: beff24eee4150724d8cf78877780261e
   m_configObjects: {}

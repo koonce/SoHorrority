@@ -1,0 +1,185 @@
+title: Kayla2
+tags: 
+colorID: 0
+position: 24,100
+---
+<<Speaking Kayla>>Hey Lucy, how are you?
+
+[[I'm pretty good.|101a]]
+[[I'm great!|102a]]
+===
+title: 101a
+tags: 
+colorID: 0
+position: 285,106
+---
+<<Speaking Kayla>>Oh, that's good to hear.
+
+[[Why are you over here by yourself?|201a]]
+[[What are you up to?|202a]]
+===
+title: 202a
+tags: 
+colorID: 0
+position: 538,312
+---
+<<Speaking Kayla>>Not really anything, I guess. Just chilling.
+
+[[Oh, okay.|301a]]
+[[Are you okay?|302a]]
+===
+title: 201a
+tags: 
+colorID: 0
+position: 530,93
+---
+<<Speaking Kayla>>Oh, um, I don't know, I'm just hanging out.
+
+[[Oh, okay.|301a]]
+[[Are you sure?|302a]]
+===
+title: 301a
+tags: 
+colorID: 0
+position: 813,114
+---
+<<Speaking Kayla>>Um...
+
+[[If you don't want to talk, that's okay.|401a]]
+[[You can tell me what's up.|402a]]
+===
+title: 401a
+tags: 
+colorID: 0
+position: 1059,116
+---
+<<Speaking Kayla>>Well, I do, but only if you don't tell anyone I said anything, alright?
+
+[[I won't.|501a]]
+[[Sounds good.|501a]]
+===
+title: 402a
+tags: 
+colorID: 0
+position: 1057,343
+---
+<<Speaking Kayla>>...okay, thank you, I reallly appreciate it. But you can't tell anyone I said anything, alright?
+
+[[I won't.|501a]]
+[[Sounds good.|501a]]
+===
+title: 501a
+tags: 
+colorID: 0
+position: 1324,116
+---
+<<Speaking Kayla>>Okay, it's not anything super specific, it's just a feeling, you know? 
+<<Speaking Kayla>>I feel really uncomfortable here, in this house. 
+<<Speaking Kayla>>All the girls act normal most of the time, but sometimes they say weird things to people, and the ouija board last night was weird, and like...
+She seems to lose her train of thought.
+<<Speaking Kayla>>I've had a raging headache all of this morning, it feels like my head is going to explode.
+
+[[Do you have any like specific things they said?|601a]]
+[[Well, it's only been a day here.|602a]]
+===
+title: 601a
+tags: 
+colorID: 0
+position: 1559,124
+---
+<<Speaking Kayla>>Well like, it's not that, it's not anything specific, it's how they act around other people, how they talk to them, and stuff. 
+<<Speaking Kayla>>It's really subtle, it's not any one thing.
+
+[[I think you might be overthinking this.|703a]]
+[[Maybe you're just different from everyone else.|702a]]
+===
+title: 602a
+tags: 
+colorID: 0
+position: 1550,340
+---
+<<Speaking Kayla>>That's true, I guess, but usually my gut feeling on these things is pretty good. 
+...
+<<Speaking Kayla>>I don't know, I guess maybe you're right.
+
+[[Is there anything like specific you can name?|701a]]
+[[Maybe you're just different from everyone else.|702a]]
+===
+title: 703a
+tags: 
+colorID: 0
+position: 1961,583
+---
+... 
+<<Speaking Kayla>>I guess you might be right. I, like... can be really anxious meeting new people.
+
+[[I'm sure you'll feel better after the party.|801a]]
+[[Yea, I can relate to that.|802a]]
+===
+title: 702a
+tags: 
+colorID: 0
+position: 1966,338
+---
+<<Speaking Kayla>>Yea...
+*She looks at her feet.*
+
+[[I'm sure you'll feel better after the party.|801a]]
+[[I think it'll turn out okay, everyone seems to like you.|803a]]
+===
+title: 701a
+tags: 
+colorID: 0
+position: 1971,103
+---
+<<Speaking Kayla>>Well like, it's not that, it's not anything specific.
+<<Speaking Kayla>>It's how they act around other people, how they talk to them, and stuff. It's really subtle, it's not any one thing."
+*She rubs her face in her hands.* 
+<<Speaking Kayla>>I don't know, sometimes I just, like... get anxious meeting new people.
+
+[[I'm sure you'll feel better after the party.|801a]]
+[[Yea, I can relate to that.|802a]]
+===
+title: 803a
+tags: 
+colorID: 0
+position: 2330,604
+---
+<<Speaking Kayla>>Really? You think so?
+
+[[Yea, for sure!|801a]]
+[[Definitely.|801a]]
+===
+title: 801a
+tags: 
+colorID: 0
+position: 2224,112
+---
+<<Speaking Kayla>>I hope so. 
+*She doesn't look fully convinced, but she's at least hopeful.*
+
+[[Well, I'll see you later.|901a]]
+[[Okay, I have to go get ready.|901a]]
+===
+title: 901a
+tags: 
+colorID: 0
+position: 2570,135
+---
+<<Speaking Kayla>>Okay, I'll see you at the party.
+
+[[leave|1001a]]
+[[leave|1002a]]
+===
+title: 802a
+tags: 
+colorID: 0
+position: 2268,370
+---
+<<Speaking Kayla>>Thanks Lucy, I appreciate it. 
+*She checks her watch.* 
+<<Speaking Kayla>>Oh shit, I have to go get ready.
+
+[[Okay, sounds good.|901a]]
+[[Okay! I'll see you later.|901a]]
+===

@@ -1,0 +1,185 @@
+title: KaylaJaycee1
+tags: 
+colorID: 0
+position: 20,396
+---
+<<Speaking Jaycee>>Hi! Are you a pledge too?
+
+[[Yes!|101k]]
+[[Mhm.|101k]]
+===
+title: 101k
+tags: 
+colorID: 0
+position: 250,398
+---
+<<Speaking Jaycee>>It's so nice to meet you!! My name is Jaycee.
+
+[[My name is Lucy.|201k]]
+[[Mine is Lucy!|201k]]
+===
+title: 201k
+tags: 
+colorID: 0
+position: 476,400
+---
+<<Speaking Jaycee>>This is so exciting!! You like have to meet, um... I'm, um, so sorry, what's your name again?
+<<Speaking Kayla>>My name is Kayla.
+<<Speaking Jaycee>>Ohh no, that's right. I totally forgot, I'm sorry, I'm so bad with names!
+<<Speaking Kayla>>It's okay! No worries.
+
+[[Nice to meet you!|301k]]
+[[This is so exciting!|302k]]
+===
+title: 302k
+tags: 
+colorID: 0
+position: 725,549
+---
+<<Speaking Kayla>>I know! I can't believe this is finally happening.
+<<Speaking Jaycee>>What did you guys think of the speech and everything?
+
+[[It was great!|401k]]
+[[She seems so cool.|402k]]
+===
+title: 301k
+tags: 
+colorID: 0
+position: 721,320
+---
+<<Speaking Kayla>>Yeah, it's nice to meet you too!
+<<Speaking Jaycee>>What did you guys think of the speech and everything?
+
+[[It was great!|401k]]
+[[She seems so cool.|402k]]
+===
+title: 402k
+tags: 
+colorID: 0
+position: 991,552
+---
+<<Speaking Jaycee>>Oh my god, so cool. The commandments and everything were like, so cute.
+<<Speaking Kayla>>I don't know, a couple of them were kind of weird.
+<<Speaking Jaycee>>What do you mean?? Like, which ones?
+<<Speaking Kayla>>Uhhh... I mean, the one about puking in public was kinda weird, 'cause like, sometimes you don't really have a choice, you know?
+<<Speaking Jaycee>>What? And embarrass our family? Are you kidding?
+
+[[It's just weird because you're new.|501k]]
+[[Yeah, it was a little weird.|502k]]
+===
+title: 401k
+tags: 
+colorID: 0
+position: 983,316
+---
+<<Speaking Jaycee>>Oh my god, so great. The commandments and everything were like, so cute.
+<<Speaking Kayla>>I don't know, a couple of them were kind of weird.
+<<Speaking Jaycee>>What do you mean?? Like, which ones?
+<<Speaking Kayla>>Uhhh... I mean, the one about puking in public was kinda weird, 'cause like, sometimes you don't really have a choice, you know?
+<<Speaking Jaycee>>What? And embarrass our family? Are you kidding?
+
+[[It's just weird because you're new.|501k]]
+[[Yeah, it was a little weird.|502k]]
+===
+title: 502k
+tags: 
+colorID: 0
+position: 1313,615
+---
+<<Speaking Jaycee>>What?? I can't believe you guys are saying this.
+<<Speaking Kayla>>Yeah, I don't know.
+<<Speaking Jaycee>>I think we should be really grateful for them letting us stay here and everything. 
+<<Speaking Jaycee>>They're doing a really nice thing for us, and they're like so welcoming.
+<<Speaking Jaycee>>I mean like the least we can do is follow their rules, you know?
+<<Speaking Kayla>>I just feel weird about having to follow rules just to be friends with people.
+
+[[I know what you mean.|601k]]
+[[I think it'll pass.|602k]]
+===
+title: 501k
+tags: 
+colorID: 0
+position: 1302,195
+---
+<<Speaking Jaycee>>Yeah, it's just because you're new.
+<<Speaking Kayla>>I don't know, I guess.
+<<Speaking Jaycee>>I mean, I think we should be really grateful for them letting us stay here and everything. 
+<<Speaking Jaycee>>It takes a lot of time and effort and like, money for this sort of thing, you know?
+<<Speaking Jaycee>>We can totally like, follow their rules in return, you know?
+<<Speaking Kayla>>I just feel weird about having to follow rules just to be friends with people.
+
+[[I know what you mean.|601k]]
+[[The feeling will pass.|602k]]
+===
+title: 602k
+tags: 
+colorID: 0
+position: 1555,615
+---
+<<Speaking Kayla>>Yeah, you're probably right.
+<<Speaking Kayla>>I mean, I'm not trying to say I hate them or anything, or like, I'm going to leave.
+<<Speaking Kayla>>I get anxious about things sometimes, I'm... probably overthinking it.
+<<Speaking Jaycee>>Well that's what they're here for, you know?
+<<Speaking Jaycee>>Like, your anxiety. They're your sisters now, and they're here to support you.
+<<Speaking Kayla>>Yeah, that's true.
+
+[[It's going to be okay.|701k]]
+[[We're here for you.|702k]]
+===
+title: 601k
+tags: 
+colorID: 0
+position: 1560,193
+---
+<<Speaking Jaycee>>I'm just so surprised.
+<<Speaking Kayla>>I mean I'm not trying to say I hate them or anything, or like, I'm going to leave.
+<<Speaking Kayla>>I get anxious about things sometimes, I'm probably overthinking it.
+<<Speaking Jaycee>>Well that's what they're here for, you know?
+<<Speaking Jaycee>>Like, your anxiety. They're your sisters now, and they're here to support you.
+<<Speaking Kayla>>Yeah, that's true.
+
+[[It's going to be okay.|701k]]
+[[We're here for you.|702k]]
+===
+title: 702k
+tags: 
+colorID: 0
+position: 1799,624
+---
+<<Speaking Jaycee>>Yeah, we're totally here for you.
+<<Speaking Kayla>>Thanks, you guys, I really appreciate it.
+<<Speaking Kayla>>I'm really sorry for being so weird, I wasn't trying to be too negative or anything.
+
+[[It's okay!|801k]]
+[[No worries.|801k]]
+===
+title: 701k
+tags: 
+colorID: 0
+position: 1792,190
+---
+<<Speaking Jaycee>>Yeah, it's totally going to be okay.
+<<Speaking Kayla>>Thanks, you guys, I really appreciate it.
+<<Speaking Kayla>>I'm really sorry for being so weird, I wasn't trying to be too negative or anything.
+
+[[It's okay!|801k]]
+[[No worries.|801k]]
+===
+title: 801k
+tags: 
+colorID: 0
+position: 2090,407
+---
+*Kayla smiles.*
+
+[[I'm gonna go, I'll talk to you guys soon.|901k]]
+[[I'm gonna go meet some more pledges!|901k]]
+===
+title: 901k
+tags: 
+colorID: 0
+position: 2352,412
+---
+<<Speaking Kayla>>Okay! Have fun.
+<<Speaking Jaycee>>See you soon!!
+===

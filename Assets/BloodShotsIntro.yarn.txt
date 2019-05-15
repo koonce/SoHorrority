@@ -3,6 +3,8 @@ tags:
 colorID: 0
 position: 59,8
 ---
+<<Speaking lol>>
+*Later that night...*
 <<Speaking Lily>>
 Alright Girls, I know you've been busy getting drunk...
 ...but we're about to turn it up with out second Lambda Lambda tradition!

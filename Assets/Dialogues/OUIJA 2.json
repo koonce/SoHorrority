@@ -1,0 +1,106 @@
+title: Start
+tags: 
+colorID: 0
+position: 108,217
+---
+<<Speaking lol>>
+*Later that night...*
+<<Speaking Lily>>Heyyy everyone come over here!
+<<Speaking Lily>>...
+<<Speaking Lily>>...
+<<Speaking Lily>>...
+<<Speaking Lily>>Surprise!!!
+
+[[Woah!|101]]
+[[A ouija board?!|101]]
+===
+title: 101
+tags: 
+colorID: 0
+position: 350,216
+---
+<<Speaking Lily>>Crazy, right??
+<<Speaking Jaycee>>Wow!! I've never used one of these!
+<<Speaking Kayla>>Woah, this is so weird.
+<<Speaking Lily>>Morgan's mom is a psychic and she learned how to use these from her.
+<<Speaking Krissy>>She got in contact with my grandma.
+<<Speaking Krissy>>I was totally an athiest before after that things have changed for me.
+<<Speaking Morgan>>I'm thinking about going professional.
+<<Speaking Kayla>>...uhhh, are you serious? I'm n-
+<<Speaking Jaycee>>That's amazing!!
+<<Speaking Jaycee>>My mom said she saw the ghost of my pet hamster once.
+<<Speaking Jaycee>>So I think I kind of get this.
+<<Speaking Krissy>>Okay, everybody shush! It's time to start.
+<<Speaking Morgan>>I'm going to begin.
+<<Speaking Morgan>>First I want to make sure everyone is takes this absolutely seriously.
+<<Speaking Morgan>>Can you do that?
+<<Speaking Jaycee>>Yes!
+
+[[Of course.|102]]
+[[Yes!|102]]
+===
+title: 102
+tags: 
+colorID: 0
+position: 605,217
+---
+<<Speaking Morgan>>Second, I'm going to need you to be silent while I speak the vows.
+<<Speaking Morgan>>Ave Satanae in conspectu tuo tibi durus preces commutans manus concava nos per sanguinem ipsius vitae.
+<<Speaking Jaycee>>Oh my god. This is crazy.
+<<Speaking Morgan>>Now we can begin.
+<<Speaking Morgan>>Who shall Lambda Lambda speak to?
+<<Speaking Lily>>We could talk to the founder of the sorority, Ms. Jenkins, who died years ago.
+<<Speaking Jaycee>>My dog died three years ago and I really miss her, but she's a dog, so maybe not.
+<<Speaking Jaycee>>Do you have anyone you want to talk to, Kayla?
+<<Speaking Kayla>>Um... no, not really.
+<<Speaking Jaycee>>Really? Are you sure?
+<<Speaking Kayla>>Well... No, it's fine.
+<<Speaking Jaycee>>Okay, well, what about you, Lucy?
+
+[[Uhhh...|103]]
+[[No...|103]]
+===
+title: 103
+tags: 
+colorID: 0
+position: 828,223
+---
+<<Speaking Jaycee>>Okay, well, I'm out of ideas.
+<<Speaking Krissy>>You could contact your sister, Lucy.
+
+[[...|104]]
+[[Oh...|104]]
+===
+title: 104
+tags: 
+colorID: 0
+position: 1071,218
+---
+<<Speaking Krissy>>Don't you miss her? You can talk to her.
+<<Speaking Morgan>>It would be even easier than usual. Her presence is strong here.
+
+[[...okay.|105]]
+[[Let's do it.|105]]
+===
+title: 105
+tags: 
+colorID: 0
+position: 1320,209
+---
+<<Speaking Krissy>>Good.
+<<Speaking Morgan>>I will summon your sister.
+<<Speaking Morgan>>Cicero convoca mihi soror mea, domus huius, immolatum in nomine tuo malum monstra.
+<<Speaking Morgan>>Et perveniant!
+The room goes cold.
+<<Speaking Morgan>>She's here.
+
+[[Are you really there?|AnimateNode]]
+[[Is it you?|AnimateNode]]
+===
+title: AnimateNode
+tags: 
+colorID: 0
+position: 1570,214
+---
+<<AnimateIt planchette2>>
+===

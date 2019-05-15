@@ -16,22 +16,19 @@ public class TalkToMe : MonoBehaviour
     bool dialogueStarted = false;
 
     public TextAsset convo;
-
+    bool ohDearLord;
+    public int intToChangeConvoTo;
     // Start is called before the first frame update
     void Start()
     {
-        
+        drScript = dr.GetComponent<DialogueRunner>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        drScript = dr.GetComponent<DialogueRunner>();
-    }
-
-    void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
+        
+        if (ohDearLord)
         {
             name.SetActive(true);
             if (name2 != null)
@@ -42,11 +39,30 @@ public class TalkToMe : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
+                    /*
+                    drScript.Stop();
+                    drScript.Clear();
+
+                    var temp = drScript.sourceText[0];
+                    drScript.sourceText[0] = drScript.sourceText[intToChangeConvoTo];
+                    drScript.sourceText[intToChangeConvoTo] = temp;
+                    drScript.SelfHatredMachine();
+                    */
                     drScript.startNode = startNode;
                     startDialog();
                     dialogueStarted = true;
+
                 }
-            }
+            } 
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            
+            ohDearLord = true;
         }
     }
 
@@ -59,6 +75,7 @@ public class TalkToMe : MonoBehaviour
             {
                 name2.SetActive(false);
             }
+            ohDearLord = false;
         }
     }
 

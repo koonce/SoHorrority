@@ -50,7 +50,7 @@ position: -314,385
 Yeah, not worth thinking about...
 <<Speaking Lily>> <<Normal Lucy>> <<Happy Lily>>
 Yeah, enough about that, we should be excited! 
-Your final initiation is tonigiht, after all. 
+Your final initiation is tonight, after all. 
 <<Speaking Lucy>> <<Happy Lucy>>
 Yeah, I'm sooo excited!
 <<Speaking Lily>>

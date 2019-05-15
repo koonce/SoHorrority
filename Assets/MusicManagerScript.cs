@@ -36,34 +36,37 @@ public class MusicManagerScript : MonoBehaviour
                 ouijaBool = true;
                 ouijaMusic.Play();
             }
-        }
-        if (ouijaBool)
-        {
-            if (volumeBool < 1) { volumeBool += 0.0001f; }
-            mainAudioSource.volume = 1 - volumeBool;
-            ouijaMusic.volume = volumeBool + 0.5f;
-            
-            if (ouijaMusic.isPlaying == false)
+            if (ouijaBool)
             {
-                ouijaMusic.clip = song2;
-                ouijaMusic.Play();
-                ouijaMusic.loop = true;
+                if (volumeBool < 1) { volumeBool += 0.0001f; }
+                mainAudioSource.volume = 1 - volumeBool;
+                ouijaMusic.volume = volumeBool + 0.5f;
+
+                if (ouijaMusic.isPlaying == false)
+                {
+                    ouijaMusic.clip = song2;
+                    ouijaMusic.Play();
+                    ouijaMusic.loop = true;
+                }
             }
         }
+        
         if (SceneManager.GetActiveScene().name == "Sunnight")
         {
             mainAudioSource.volume = volumeBool;
-            if (speech.GetComponent<TextMeshPro>().text == "I feel good." && !ouijaBool)
+            if (speech.GetComponent<TextMeshPro>().text == "Welcome to the Chapter Room." && !ouijaBool)
             {
                 ouijaBool = true;
+
             }
             if (ouijaBool)
             {
                 if (volumeBool < 1) { volumeBool += 0.0001f; }
             }
-            if (speech.GetComponent<TextMeshPro>().text == "Now, close your eyes." && ouijaBool)
+            if (speech.GetComponent<TextMeshPro>().text == "Everything will be good, soon." && ouijaBool)
             {
-                mainAudioSource.clip = song;
+                mainAudioSource.Stop();
+                mainAudioSource.clip = song2;
                 mainAudioSource.Play();
                 mainAudioSource.loop = false;
                 ouijaBool = false;

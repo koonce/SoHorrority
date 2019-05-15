@@ -1,0 +1,74 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "<<Speaking Lily>>Heyyy everyone come over here!\n<<Speaking Lily>>...\n<<Speaking Lily>>...\n<<Speaking Lily>>...\n<<Speaking Lily>>Surprise!!!
+		<<Reveal Lily>> 
+		\n\n[[Woah!|101]]\n[[A ouija board?!|101]]",
+		"position": {
+			"x": 108,
+			"y": 217
+		},
+		"colorID": 0
+	},
+	{
+		"title": "101",
+		"tags": "",
+		"body": "<<Speaking Lily>>Crazy, right??\n<<Speaking Jaycee>>Wow!! I've never used one of these!\n<<Speaking Kayla>>Woah, this is so weird.\n<<Speaking Lily>>Morgan's mom is a psychic and she learned how to use these from her.\n<<Speaking Krissy>>She got in contact with my grandma.\n<<Speaking Krissy>>I was totally an athiest before, but after that things have changed for me.\n<<Speaking Morgan>>I'm thinking about going professional.\n<<Speaking Kayla>>...Uhhh, are you serious? I'm n-\n<<Speaking Jaycee>>That's amazing!!\n<<Speaking Jaycee>>My mom said she saw the ghost of my pet hamster once.\n<<Speaking Jaycee>>So I think I kind of get this.\n<<Speaking Krissy>>Okay, everybody shush! It's time to start.\n<<Speaking Morgan>>I'm going to begin.\n<<Speaking Morgan>>First, I want to make sure everyone takes this absolutely seriously.\n<<Speaking Morgan>>Can you do that?\n<<Speaking Jaycee>>Yes!\n\n[[Of course.|102]]\n[[Yes!|102]]",
+		"position": {
+			"x": 350,
+			"y": 216
+		},
+		"colorID": 0
+	},
+	{
+		"title": "102",
+		"tags": "",
+		"body": "<<Speaking Morgan>>Second, I'm going to need you to be silent while I speak the vows.\n<<Speaking Morgan>>Ave Satanae in conspectu tuo tibi durus preces commutans manus concava nos per sanguinem ipsius vitae.\n<<Speaking Jaycee>>Oh my god. This is crazy.\n<<Speaking Morgan>>Now we can begin.\n<<Speaking Morgan>>Who shall Lambda Lambda speak to?\n<<Speaking Lily>>We could talk to the founder of the sorority, Ms. Jenkins, who died years ago.\n<<Speaking Jaycee>>My dog died three years ago and I really miss her, but she's a dog, so maybe not.\n<<Speaking Jaycee>>Do you have anyone you want to talk to, Kayla?\n<<Speaking Kayla>>Um... no, not really.\n<<Speaking Jaycee>>Really? Are you sure?\n<<Speaking Kayla>>Well... No, it's fine.\n<<Speaking Jaycee>>Okay, well, what about you, Lucy?\n\n[[Uhhh...|103]]\n[[No...|103]]",
+		"position": {
+			"x": 605,
+			"y": 217
+		},
+		"colorID": 0
+	},
+	{
+		"title": "103",
+		"tags": "",
+		"body": "<<Speaking Jaycee>>Okay, well, I'm out of ideas.\n<<Speaking Krissy>>You could contact your sister, Lucy.\n\n[[...|104]]\n[[Oh...|104]]",
+		"position": {
+			"x": 828,
+			"y": 223
+		},
+		"colorID": 0
+	},
+	{
+		"title": "104",
+		"tags": "",
+		"body": "<<Speaking Krissy>>Don't you miss her? You can talk to her.\n<<Speaking Morgan>>It would be even easier than usual. Her presence is strong here.\n\n[[...okay.|105]]\n[[Let's do it.|105]]",
+		"position": {
+			"x": 1071,
+			"y": 218
+		},
+		"colorID": 0
+	},
+	{
+		"title": "105",
+		"tags": "",
+		"body": "<<Speaking Krissy>>Good.\n<<Speaking Morgan>>I will summon your sister.\n<<Speaking Morgan>>Cicero convoca mihi soror mea, domus huius, immolatum in nomine tuo malum monstra.\n<<Speaking Morgan>>Et perveniant!\nThe room goes cold.\n<<Speaking Morgan>>She's here.\n\n[[Are you really there?|AnimateNode]]\n[[Is it you?|AnimateNode]]",
+		"position": {
+			"x": 1320,
+			"y": 209
+		},
+		"colorID": 0
+	},
+        {
+		"title": "AnimateNode",
+		"tags": "",
+		"body": "<<AnimateIt planchette2>>",
+		"position": {
+			"x": 1320,
+			"y": 209
+		},
+		"colorID": 0
+	}
+]
