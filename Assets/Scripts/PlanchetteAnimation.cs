@@ -20,7 +20,10 @@ namespace Yarn.Unity
 
         public bool ouijaTime = false;
 
-        
+        public bool yes;
+        public bool loveu;
+        public bool missu;
+        public bool belong;
 
         // Start is called before the first frame update
         void Start()
@@ -30,13 +33,20 @@ namespace Yarn.Unity
             {
                 anim[i].wrapMode = WrapMode.Once;
             }
+
+            yes = false;
+            loveu = false;
+            missu = false;
+            belong = false;
+
+            GetComponent<Animator>().SetInteger("animIndex", 0);
             
         }
 
         // Update is called once per frame
-        void Update()
-        {
+        void Update() {
             drScript = dr.GetComponent<DialogueRunner>();
+            /*
             if (animIndex == 0 && ouijaTime)
             {
                 if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Idle"))
@@ -45,6 +55,7 @@ namespace Yarn.Unity
                    //drScript.startNode = "106";
                    startDialog();
                     ouijaTime = false;
+                    animIndex = 0;
                 }
             }
 
@@ -53,10 +64,11 @@ namespace Yarn.Unity
                 if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Idle"))
                 {
                     // Avoid any reload.
-                    startNode = "107";
+                    startNode = "108";
                     drScript.startNode = startNode;
                     startDialog();
                     ouijaTime = false;
+                    animIndex = 0;
                 }
             }
 
@@ -69,6 +81,7 @@ namespace Yarn.Unity
                     drScript.startNode = startNode;
                     startDialog();
                     ouijaTime = false;
+                    animIndex = 0;
                 }
             }
 
@@ -77,14 +90,15 @@ namespace Yarn.Unity
                 if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Idle"))
                 {
                     // Avoid any reload.
-                    startNode = "108";
+                    startNode = "107";
                     drScript.startNode = startNode;
                     startDialog();
                     ouijaTime = false;
+                    animIndex = 0;
                 }
             }
 
-            if ((animIndex==5 || animIndex==4) & ouijaTime)
+            if (animIndex==4 && ouijaTime)
             {
                 if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Idle"))
                 {
@@ -93,32 +107,91 @@ namespace Yarn.Unity
                     drScript.startNode = startNode;
                     startDialog();
                     ouijaTime = false;
+                    animIndex = 0;
                 }
             }
+            */
+
+            if(belong && ouijaTime) {
+                startNode = "109";
+                drScript.startNode = startNode;
+                startDialog();
+                ouijaTime = false;
+                belong = false;
+            } else if(missu && ouijaTime) {
+                startNode = "108";
+                drScript.startNode = startNode;
+                startDialog();
+                ouijaTime = false;
+                missu = false;
+            } else if(loveu && ouijaTime) {
+                startNode = "107";
+                drScript.startNode = startNode;
+                startDialog();
+                ouijaTime = false;
+                loveu = false;
+            } else if(yes && ouijaTime) {
+                startNode = "106";
+                drScript.startNode = startNode;
+                startDialog();
+                ouijaTime = false;
+                yes = false;
+            }
+            
+            GetComponent<Animator>().SetInteger("animIndex", animIndex);
         }
 
         [YarnCommand("AnimateIt")]
         public void MovePlanchette()
         {
-            animIndex++;
-            this.GetComponent<Animation>().clip = anim[animIndex];
+            animIndex = 1;
             ouijaTime = true;
-           this.GetComponent<Animation>().Play();
+            
         }
 
 
         [YarnCommand("AnimateIt2")]
         public void MovePlanchette2()
         {
-            animIndex += 2;
-            this.GetComponent<Animation>().clip = anim[animIndex];
+            animIndex = 2;
             ouijaTime = true;
-            planchette.GetComponent<Animation>().Play();
+            
+        }
+
+        [YarnCommand("AnimateIt3")]
+        public void MovePlanchette3() {
+            animIndex = 3;
+            ouijaTime = true;
+            
+        }
+
+        [YarnCommand("AnimateIt4")]
+        public void MovePlanchette4() {
+            animIndex = 4;
+            ouijaTime = true;
+            
         }
 
         void startDialog()
         {
             FindObjectOfType<DialogueRunner>().StartDialogue();
+        }
+
+        public void resetPlanchette(int index) {
+            if(animIndex == 1) {
+                yes = true;
+            } else if (animIndex == 2) {
+                loveu = true;
+            } else if (animIndex == 3) {
+                missu = true;
+            } else if (animIndex == 4) {
+                belong = true;
+            }
+
+            index = 0;
+
+            animIndex = index;
+            GetComponent<Animator>().SetInteger("animIndex", animIndex);
         }
     }
 }
