@@ -53,7 +53,7 @@ public class MusicManagerScript : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Sunnight")
         {
             mainAudioSource.volume = volumeBool;
-            if (speech.GetComponent<TextMeshPro>().text == "triggertext" && !ouijaBool)
+            if (speech.GetComponent<TextMeshPro>().text == "I feel good." && !ouijaBool)
             {
                 ouijaBool = true;
             }
@@ -61,7 +61,7 @@ public class MusicManagerScript : MonoBehaviour
             {
                 if (volumeBool < 1) { volumeBool += 0.0001f; }
             }
-            if (speech.GetComponent<TextMeshPro>().text == "triggertext2" && ouijaBool)
+            if (speech.GetComponent<TextMeshPro>().text == "Now, close your eyes." && ouijaBool)
             {
                 mainAudioSource.clip = song;
                 mainAudioSource.Play();

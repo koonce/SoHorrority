@@ -12,9 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/main.unity
     guid: ac4aa5a67e7cac247adfe34864d6e9ac
   - enabled: 1
+    path: Assets/Scenes/Frinight.unity
+    guid: e3c7ec6b12ac85943ab872e4e8c8a4a7
+  - enabled: 1
     path: Assets/Scenes/Saturday.unity
     guid: beff24eee4150724d8cf78877780261e
   - enabled: 1
-    path: Assets/Scenes/Frinight.unity
-    guid: e3c7ec6b12ac85943ab872e4e8c8a4a7
+    path: Assets/Scenes/Saturnight.unity
+    guid: a0ca1310963d7af41b9053ead48276e3
+  - enabled: 1
+    path: Assets/Scenes/Sunday.unity
+    guid: e2d8001f3325cec4da1ba43a8917fb1f
+  - enabled: 1
+    path: Assets/Scenes/Sunnight.unity
+    guid: abeecaf4850a0734fa086ba324bac8de
   m_configObjects: {}
