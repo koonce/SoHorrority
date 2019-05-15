@@ -1,0 +1,51 @@
+title: BloodShotsFirst
+tags: 
+colorID: 0
+position: 313,-103
+---
+<<Speaking Lily>>
+Woooooo!
+[[Wooooo|BloodShotsFirst1]]
+===
+title: BloodShotsFirst1
+tags: 
+colorID: 0
+position: 392,220
+---
+<<Speaking Girls>>
+WOOOOO!
+<<Speaking Lily>>
+Damn girls, you're crazy!
+<<Speaking Kayla>>
+I thought this was supposed to be some hard shit.
+<<Speaking Jaycee>>
+Oh my god I'm going to vomit. 
+[[Oof I don't feel so good|BloodShotsFirst2]]
+===
+title: BloodShotsFirst2
+tags: 
+colorID: 0
+position: 385,543
+---
+<<Speaking Lucy>>
+Oof, I don't feel so good.
+<<Speaking Krissy>>
+This is always the craziest part of the year, right Morgan?
+<<Speaking Morgan>>
+Yup. Always wild. 
+<<Speaking Lily>>
+Alright everyone, we're going to pour everyone another shot. Pick your glass!
+[[Pick a glass|BloodShotsFirst3]]
+===
+title: BloodShotsFirst3
+tags: 
+colorID: 0
+position: 204,848
+---
+<<Speaking Lily>>
+Alright girls. Being a Lambda Lambda is more than just, a title, you know?
+It's about loyalty. It's about power. It's about... sisterhood. 
+We are a community! Of girls, of *hic* sisters!
+Let's drink to that!
+<<UpdateCurrent HandHold>>
+===

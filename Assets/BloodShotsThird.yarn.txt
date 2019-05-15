@@ -1,0 +1,23 @@
+title: BloodShotsThird
+tags: 
+colorID: 0
+position: 417,199
+---
+<<Speaking Girls>>
+WOOOOOO!!!
+[[Your head begins to throb|BloodShotsThird1]]
+===
+title: BloodShotsThird1
+tags: 
+colorID: 0
+position: 586,476
+---
+<<Speaking Kayla>>
+I don't feel so good...
+<<Speaking Jaycee>>
+I'm gonna throw up.
+<<Speaking Lily>>
+Alright hold it together guys, and celebrate. 
+You are officially our Lambda Lambda sisters!
+<<NextScene HandHold>>
+===

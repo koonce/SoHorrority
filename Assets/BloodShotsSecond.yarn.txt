@@ -1,0 +1,117 @@
+title: BloodShotsSecond
+tags: 
+colorID: 0
+position: 27,-207
+---
+<<Speaking Lily>>
+WOO!!!
+[[WOOOOO!!!!|BloodShotsSecond1]]
+===
+title: BloodShotsSecond1
+tags: 
+colorID: 0
+position: -259,47
+---
+<<Speaking Girls>>
+WOOOOO!!
+<<Speaking Lily>>
+Alright! Can you feel that Lambda Lambda Spirit!?!?
+<<Speaking Jaycee>>
+Yesh!
+<<Speaking Kayla>>
+mmhmm.
+[[Yersh|BloodShotsSecond2]]
+===
+title: BloodShotsSecond2
+tags: 
+colorID: 0
+position: -274,352
+---
+<<Speaking Lucy>>
+Yersh...
+<<Speaking Lily>>
+Haha! Everyone's getting into it!
+<<Speaking Morgan>>
+But we aren't finished yet.
+<<Speaking Lily>>
+Oh no, not at all...
+[[...|BloodShotsSecond3]]
+===
+title: BloodShotsSecond3
+tags: 
+colorID: 0
+position: 11,375
+---
+<<Speaking Lily>>
+See, drinking these shots isn't the whole tradition.
+There's another step.
+We... we are all sisters. 
+Bound together by adversity, by loyalty...
+...by blood.
+So to show our sisterhood, we're going to bind ourselves together through the blood...
+...
+WHO WANTS ANOTHER SHOT?
+[[..?|BloodShotsSecond4]]
+===
+title: BloodShotsSecond4
+tags: 
+colorID: 0
+position: 301,307
+---
+<<Speaking Lucy>>
+Umm...
+<<Speaking Jaycee>>
+Wooo....
+...I need the bathroom.
+<<Speaking Kayla>>
+This seems a bit...unsanitary.
+<<Speaking Lily>>
+Guys, it'll be fine. We've been doing it for centuries. 
+It's one of our oldest Lambda Lambda traditions.
+Morgan, can you go around with the prick?
+Haha, prick.
+[[...|BloodShotsSecond5]]
+===
+title: BloodShotsSecond5
+tags: 
+colorID: 0
+position: 681,386
+---
+<<Speaking Morgan>>
+Yeah, yeah. 
+Alright everyone, show me your middle fingers.
+<<Speaking Jaycee>>
+Ow!
+<<Speaking Kayla>>
+That tickles.
+[[Give the Blood|BloodShotsSecond6]]
+===
+title: BloodShotsSecond6
+tags: 
+colorID: 0
+position: 901,520
+---
+<<Speaking Lucy>>
+Ow!
+<<Speaking Lily>>
+Alright that's everyone!
+Start mixing the shot Krissy.
+<<Speaking Krissy>>
+Mmhmm.
+<<Speaking Lily>>
+Alright my Lambda Lambda pledges. Today marks a new day in your history.
+[[The Shots are handed out...|BloodShotsSecond7]]
+===
+title: BloodShotsSecond7
+tags: 
+colorID: 0
+position: 712,742
+---
+<<Speaking Lily>>
+This is the day that you become our true sisters.
+<<Speaking Girls>>
+Wooooo!
+<<Speaking Lily>>
+Now DRINK!
+<<UpdateCurrent HandHold>>
+===

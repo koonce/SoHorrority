@@ -1,0 +1,42 @@
+title: BloodShotsIntro
+tags: 
+colorID: 0
+position: 59,8
+---
+<<Speaking Lily>>
+Alright Girls, I know you've been busy getting drunk...
+...but we're about to turn it up with out second Lambda Lambda tradition!
+[[WoOoo!|BloodShotsIntro1]]
+===
+title: BloodShotsIntro1
+tags: 
+colorID: 0
+position: 12,266
+---
+<<Speaking Girls>>
+WOOOOOO!
+<<Speaking Lily>>
+Alright, so here's how we start.
+Everybody pick a shot glass!
+[[Pick a Shot Glass|BloodShotsIntro2]]
+===
+title: BloodShotsIntro2
+tags: 
+colorID: 0
+position: 16,520
+---
+<<Speaking Lily>>
+Alright awesome!
+Now everybody, here's ya boooze. 
+<<Speaking Jaycee>>
+Oh wow, this is real alcohol?
+<<Speaking Lily>>
+Of course, silly!
+<<Speaking Kayla>>
+You've never drank before?
+<<Speaking Jaycee>>
+Of course I have-
+<<Speaking Lily>>
+ALRIGHT DRINK!
+<<UpdateCurrent HandHold>>
+===
