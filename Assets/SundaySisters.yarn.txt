@@ -1,0 +1,35 @@
+title: SundayKrissy
+tags: 
+colorID: 0
+position: 546,277
+---
+<<Speaking Lucy>> <<Normal Lucy>> <<Normal Krissy>>
+Hey Krissy.
+<<Speaking Krissy>> <<Happy Krissy>>
+Hey Lucy!
+Hope you're feeling good!
+Everyone is waiting for you in the chapter room!
+[[Waiting for me..?|SundayKrissy1]] [[What do you mean...|SundayKrissy1]]
+===
+title: SundayKrissy1
+tags: 
+colorID: 0
+position: 805,528
+---
+<<Speaking Krissy>> <<Normal Krissy>> <<Normal Lucy>>
+Yup! 
+Head on over to the chapter room.
+Your final initiation ritual will take place there!
+[[Final Initiation?|SundayKrissy2]] [[Chapter Room?|SundayKrissy2]]
+===
+title: SundayKrissy2
+tags: 
+colorID: 0
+position: 762,765
+---
+<<Speaking Krissy>>
+Uh huh.
+You'll see what I mean when you get there.
+Morgan and Lily are already waiting for you there.
+[[Alright, cool|Done]] [[Talk to you later|Done]]
+===
