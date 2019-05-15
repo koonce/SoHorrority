@@ -2791,6 +2791,7 @@ GameObject:
   - component: {fileID: 904281457}
   - component: {fileID: 904281459}
   - component: {fileID: 904281460}
+  - component: {fileID: 904281461}
   m_Layer: 0
   m_Name: Lucy
   m_TagString: Player
@@ -3009,6 +3010,25 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!95 &904281461
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904281451}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &937860545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5814,6 +5834,8 @@ MonoBehaviour:
   player: {fileID: 904281451}
   cam: {fileID: 963194227}
   cameraPos:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
