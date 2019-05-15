@@ -13,7 +13,7 @@ public class CameraControl : MonoBehaviour
 
     public Camera cam;
 
-    [HideInInspector]
+    
     public Vector3[] cameraPos = new Vector3[6];
 
     public GameObject fadeScreen;

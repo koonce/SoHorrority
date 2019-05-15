@@ -43,7 +43,7 @@ One more challenge you need to face.
 One more trials you must prove yourself through.
 <<Speaking Krissy>>
 One final initiation ritual.
-[[I... am ready|FinalRitual3]
+[[I... am ready|FinalRitual3]]
 ===
 title: FinalRitual3
 tags: 
@@ -70,14 +70,15 @@ Yes.
 How is she still alive...?
 It must've been hundreds of years.
 <<Speaking Krissy>>
-Come, we will show you.
-[[Follow|FinalRitual5]]
+Come, we will show you. Close your eyes.
+[[*Close eyes*|FinalRitual5]]
 ===
 title: FinalRitual5
 tags: 
 colorID: 0
 position: 469,544
 ---
+<<Demons GameManager>>
 <<Speaking Krissy>>
 Here he is.
 We come here every year, and give a little part of ourselves to him.
@@ -119,5 +120,5 @@ Good.
 Now, close your eyes. 
 He's coming for you. 
 Everything will be good, soon.
-[[...|Done]]
+<<FadeOut GameManager>>
 ===
