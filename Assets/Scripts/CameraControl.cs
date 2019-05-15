@@ -13,6 +13,7 @@ public class CameraControl : MonoBehaviour
 
     public Camera cam;
 
+    [HideInInspector]
     public Vector3[] cameraPos = new Vector3[6];
 
     public GameObject fadeScreen;
@@ -39,12 +40,9 @@ public class CameraControl : MonoBehaviour
     void Update()
     {
         //Color color = fadeScreen.GetComponent<SpriteRenderer>().color;
-
         
 
-        
-
-        if (player.transform.position.y>9 && currentScene == 1)
+        if (player.transform.position.y>8.5f && currentScene == 1)
         {
             currentScene = 4;
 
@@ -53,7 +51,7 @@ public class CameraControl : MonoBehaviour
             currentScene--;
         } 
         
-        if(player.transform.position.x >= right) {
+        if(player.transform.position.x > right) {
             currentScene++;
         }
         //currentScene = player.GetComponent<Movement>().currentScene;
@@ -102,7 +100,7 @@ public class CameraControl : MonoBehaviour
             //if (fadeScreen.GetComponent<SpriteRenderer>().color.a >= 224)
             //{
             player.GetComponent<Movement>().firstFloor = false;
-                cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
+            cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
             left = -11f;
             right = 10f;
 
