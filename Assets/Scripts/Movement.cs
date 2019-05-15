@@ -56,6 +56,18 @@ public class Movement : MonoBehaviour
 
         drScript = dr.GetComponent<DialogueRunner>();
 
+
+        if (onStairs && transform.position.y > .08f && transform.position.y < 9f)
+        {
+            maxLeft = -4.8f;
+            maxRight = 4.8f;
+        }
+        else
+        {
+            maxLeft = -29.6f;
+            maxRight = 29.7f;
+        }
+
         if (!drScript.isDialogueRunning)
         {
             if (Input.GetKey(KeyCode.A) && pos.x > maxLeft)
@@ -79,6 +91,7 @@ public class Movement : MonoBehaviour
             {
                 pos.y += step;
             }
+
 
             this.transform.position = pos;
         }

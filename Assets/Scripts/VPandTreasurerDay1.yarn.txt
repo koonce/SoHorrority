@@ -25,7 +25,7 @@ I was like freaking out when I joined Lambda Lambda, but you guys have your shit
 Yea, me too.
 
 [[Thanks!|301]]
-[[I can be overwhelming, haha.|302]]
+[[It can be overwhelming, haha.|302]]
 ===
 title: 101
 tags: 
@@ -47,7 +47,7 @@ colorID: 0
 position: 653,567
 ---
 <<Speaking Lucy>> <<Sad Lucy>>
-I can be overwhelming, haha.
+It can be overwhelming, haha.
 <<Speaking Lily>> <<Sad Lily>>
 Well, not too overwhelming, I hope.
 <<Normal Lily>> <<Normal Lucy>>

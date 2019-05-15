@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Text;
 using TMPro;
+using Yarn.Unity;
 
 public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
 {
@@ -58,6 +59,16 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
     void Update()
     {
         //lineText = GameObject.Find("Dialogue");
+    
+        if (this.gameObject.GetComponent<DialogueRunner>().deciding)
+        {
+            dialogueContainer.SetActive(false);
+        }
+        else if (this.gameObject.GetComponent<DialogueRunner>().isDialogueRunning)
+        {
+            dialogueContainer.SetActive(true);
+        }
+        
     }
 
     /// Show a line of dialogue, gradually
