@@ -1,0 +1,123 @@
+title: FinalRitual
+tags: 
+colorID: 0
+position: 350,253
+---
+<<Speaking Krissy>>
+Welcome, Lucy.
+Welcome to the Chapter Room.
+<<Speaking Lily>>
+How are you feeling?
+[[I feel good|FinalRitual1]]
+===
+title: FinalRitual1
+tags: 
+colorID: 0
+position: 635,239
+---
+<<Speaking Lucy>>
+I feel good.
+<<Speaking Krissy>>
+Good... good.
+You've shown enormous promise even in the short time you've been here.
+We all think you'll be an amazing addition to the sorority, right?
+<<Speaking Morgan>>
+Mmhmm.
+<<Speaking Lily>>
+Of course!
+[[Thank you|FinalRitual2]]
+===
+title: FinalRitual2
+tags: 
+colorID: 0
+position: 868,307
+---
+<<Speaking Lucy>>
+Thank you.
+<<Speaking Krissy>>
+Of course. 
+However, there is still one thing you need to do.
+<<Speaking Morgan>>
+One more challenge you need to face.
+<<Speaking Lily>>
+One more trials you must prove yourself through.
+<<Speaking Krissy>>
+One final initiation ritual.
+[[I... am ready|FinalRitual3]
+===
+title: FinalRitual3
+tags: 
+colorID: 0
+position: 1046,426
+---
+<<Speaking Lucy>>
+I... am ready.
+<<Speaking Krissy>>
+Then come with me, there's someone you need to meet.
+The founder of the Sorority.
+[[The Founder?|FinalRitual4]]
+===
+title: FinalRitual4
+tags: 
+colorID: 0
+position: 730,563
+---
+<<Speaking Lucy>>
+The Founder...?
+<<Speaking Krissy>>
+Yes.
+<<Speaking Lucy>>
+How is she still alive...?
+It must've been hundreds of years.
+<<Speaking Krissy>>
+Come, we will show you.
+[[Follow|FinalRitual5]]
+===
+title: FinalRitual5
+tags: 
+colorID: 0
+position: 469,544
+---
+<<Speaking Krissy>>
+Here he is.
+We come here every year, and give a little part of ourselves to him.
+<<Speaking Morgan>>
+We give a part of ourselves, so that we can be together.
+<<Speaking Lily>>
+So that we can be sisters... 
+<<Speaking Krissy>>
+So that you can be our sister. 
+[[My sister...|FinalRitual6]]
+===
+title: FinalRitual6
+tags: 
+colorID: 0
+position: 217,624
+---
+<<Speaking Lucy>>
+My... sister.
+<<Speaking Krissy>>
+Yes. She is with us now. 
+You can be with her. With us. 
+Just give a piece of yourself up to him. 
+I promise, you'll feel so much better when you don't need to feel things quite as much.
+<<Speaking Morgan>>
+When you can trust us, your sisters. 
+<<Speaking Lily>>
+It's how these things have always been. Us sisters have always stuck together.
+[[...Ok|FinalRitual7]]
+===
+title: FinalRitual7
+tags: 
+colorID: 0
+position: 320,849
+---
+<<Speaking Lucy>>
+...Ok.
+<<Speaking Krissy>>
+Good.
+Now, close your eyes. 
+He's coming for you. 
+Everything will be good, soon.
+[[...|Done]]
+===
