@@ -13,7 +13,7 @@ public class CameraControl : MonoBehaviour
 
     public Camera cam;
 
-    public Vector3[] cameraPos = new Vector3[5];
+    public Vector3[] cameraPos = new Vector3[6];
 
     public GameObject fadeScreen;
 
@@ -26,11 +26,13 @@ public class CameraControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cameraPos[0] = new Vector3(-20.4f, 1f, -10f);
-        cameraPos[1] = new Vector3(-.6f, 1f, -10f);
+        cameraPos[0] = new Vector3(-20.46f, 1f, -10f);
+        cameraPos[1] = new Vector3(-0f, 1f, -10f);
         cameraPos[2] = new Vector3(20.4f, 1f, -10f);
        // cameraPos[3] = new Vector3(40.9f, 1f, -10f);
-        cameraPos[3] = new Vector3(-.21f, 12.44f, -10f);
+        cameraPos[3] = new Vector3(-20.46f, 12.44f, -10f);
+        cameraPos[4] = new Vector3(0f, 12.44f, -10f);
+        cameraPos[5] = new Vector3(20.4f, 12.44f, -10f);
     }
 
     // Update is called once per frame
@@ -38,20 +40,18 @@ public class CameraControl : MonoBehaviour
     {
         //Color color = fadeScreen.GetComponent<SpriteRenderer>().color;
 
-        if (player.transform.position.x < left)
-        {
-            currentScene--;
-        }
+        
 
-        if (player.transform.position.x > right)
-        {
-            currentScene++;
-        }
+        
 
         if (player.transform.position.y>9)
         {
-            currentScene = 3;
+            currentScene = 4;
 
+        } else if(player.transform.position.x < left) {
+            currentScene--;
+        } else if(player.transform.position.x > right) {
+            currentScene++;
         }
         //currentScene = player.GetComponent<Movement>().currentScene;
 
@@ -83,7 +83,7 @@ public class CameraControl : MonoBehaviour
             right = 50.4f;
         }
         */
-        else if (currentScene == 3)
+        else if (currentScene == 4)
         {
 
             /*
@@ -113,6 +113,16 @@ public class CameraControl : MonoBehaviour
             //}
 
 
+        }
+
+        else if (currentScene == 3) {
+            player.GetComponent<Movement>().firstFloor = false;
+            cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
+        }
+
+        else if (currentScene == 5) {
+            player.GetComponent<Movement>().firstFloor = false;
+            cam.transform.position = Vector3.Lerp(cam.transform.position, cameraPos[currentScene], Time.deltaTime * cameraSpeed);
         }
 
     }

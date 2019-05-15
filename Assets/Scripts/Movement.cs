@@ -31,7 +31,7 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        GetComponent<Animator>().SetBool("walking", false);
     }
 
     // Update is called once per frame
@@ -74,26 +74,40 @@ public class Movement : MonoBehaviour
             {
                 pos.x -= step;
                 this.GetComponent<SpriteRenderer>().flipX = false;
+                GetComponent<Animator>().SetBool("walking", true);
+            } else if(Input.GetKeyUp(KeyCode.A)) {
+                GetComponent<Animator>().SetBool("walking", false);
             }
 
             if (Input.GetKey(KeyCode.D) && pos.x < maxRight)
             {
                 pos.x += step;
                 this.GetComponent<SpriteRenderer>().flipX = true;
+                GetComponent<Animator>().SetBool("walking", true);
+            } else if(Input.GetKeyUp(KeyCode.D)) {
+                GetComponent<Animator>().SetBool("walking", false);
             }
 
             if (Input.GetKey(KeyCode.S) && (pos.y > bottom|| onStairs))
             {
                 pos.y -= step;
+                GetComponent<Animator>().SetBool("walking", true);
+            } else if(Input.GetKeyUp(KeyCode.S)) {
+                GetComponent<Animator>().SetBool("walking", false);
             }
 
             if (Input.GetKey(KeyCode.W) && (pos.y < top || onStairs))
             {
                 pos.y += step;
+                GetComponent<Animator>().SetBool("walking", true);
+            } else if (Input.GetKeyUp(KeyCode.W)) {
+                GetComponent<Animator>().SetBool("walking", false);
             }
 
 
             this.transform.position = pos;
+        } else {
+            GetComponent<Animator>().SetBool("walking", false);
         }
 
     }

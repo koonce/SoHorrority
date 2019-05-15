@@ -11,7 +11,8 @@ TrueTypeFontImporter:
   fontName: Gabriela
   fontNames:
   - Gabriela
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 20781e683d7eab241a8497e2c910cc74, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
