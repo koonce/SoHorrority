@@ -13,6 +13,7 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
     public bool deciding = false;
 
     public GameObject dialogueContainer;
+    public GameObject decideContainer;
 
     /// The UI element that displays lines
     public GameObject lineText;
@@ -63,10 +64,17 @@ public class DialogueUI : Yarn.Unity.DialogueUIBehaviour
         if (this.gameObject.GetComponent<DialogueRunner>().deciding)
         {
             dialogueContainer.SetActive(false);
+            decideContainer.SetActive(true);
         }
         else if (this.gameObject.GetComponent<DialogueRunner>().isDialogueRunning)
         {
             dialogueContainer.SetActive(true);
+            decideContainer.SetActive(false);
+        }
+        else if (!this.gameObject.GetComponent<DialogueRunner>().isDialogueRunning)
+        {
+            dialogueContainer.SetActive(false);
+            decideContainer.SetActive(false);
         }
         
     }

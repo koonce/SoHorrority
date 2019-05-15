@@ -18,10 +18,11 @@ Pretty good.
 <<Speaking Morgan>>
 That's good. 
 <<Sad Morgan>>
-(She looks you up and down)
+*She looks you up and down*
 Are you, uh, going to wear that to the party?
 
 [[Oh... yea.|201c]]
+[[What?|201d]]
 ===
 title: 201c
 tags: 
@@ -30,6 +31,20 @@ position: 295,9
 ---
 <<Speaking Lucy>> <<Sad Lucy>>
 Oh... yea.
+<<Speaking Morgan>> <<Normal Morgan>>
+I hate to nitpick and everything, but that outfit isn't really right for this kind of party, haha. 
+It's sort of a bit more... high class, you know?
+
+[[Oh, okay.|301c]]
+[[Oh shit, I'm sorry.|302c]]
+===
+title: 201d
+tags: 
+colorID: 0
+position: 295,9
+---
+<<Speaking Lucy>> <<Sad Lucy>>
+What? Is something wrong with my outfit?
 <<Speaking Morgan>> <<Normal Morgan>>
 I hate to nitpick and everything, but that outfit isn't really right for this kind of party, haha. 
 It's sort of a bit more... high class, you know?
@@ -76,7 +91,6 @@ position: 317,862
 I'll be right back.
 <<Speaking Morgan>> <<Happy Morgan>>
 Okay, great.
-
 ===
 title: added
 tags: 

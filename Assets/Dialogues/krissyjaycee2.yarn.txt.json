@@ -2,7 +2,7 @@
 	{
 		"title": "KrissyJaycee2",
 		"tags": "",
-		"body": "You walk up to Krissy and Jaycee.\n<<Speaking Krissy>>Heyyy!\n<<Speaking Jaycee>>What's up!\n\n[[It's good!|201w]]\n[[Great!|201w]]",
+		"body": "<<Speaking Krissy>>Heyyy!\n<<Speaking Jaycee>>What's up!\n\n[[It's good!|201w]]\n[[Great!|201w]]",
 		"position": {
 			"x": 41,
 			"y": 372

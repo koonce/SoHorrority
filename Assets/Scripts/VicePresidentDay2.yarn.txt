@@ -4,9 +4,11 @@ colorID: 0
 position: 180,235
 ---
 <<Speaking Lily>> <<Happy Lily>>
-"Okay, so, Zagan, Haagenti, Kimaris, Furfu-" VP notices you coming and smiles. 
-"Um, I'm going to have to call you back, Trav," she says as she hangs up the phone.
-"Heyyyy! How's it going?? Are you excited or what?"
+Okay, so, Zagan, Haagenti, Kimaris, Furfu-
+*Lily notices you coming and smiles.*
+Um, I'm going to have to call you back, Trav 
+*She hangs up the phone*
+Heyyyy! How's it going?? Are you excited or what?
 
 [[Yes, I can't wait!!|201]]
 [[Yea, but I'm so nervous!!|202]]
@@ -47,12 +49,12 @@ position: 688,417
 <<Speaking Lucy>> 
 Wow, that's crazy!
 <<Speaking Lily>>
-"Oh my god, I know right, I did like, so many cannonballs, haha."
+Oh my god, I know right, I did like, so many cannonballs, haha.
 
-[[So what are you up to?|401c]]
+[[So what are you up to?|401d]]
 [[What are you doing out here?|401b]]
 ===
-title: 401c
+title: 401d
 tags: 
 colorID: 0
 position: 962,433
